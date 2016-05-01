@@ -15,6 +15,11 @@ body {
         font-family:"OpenSans";
 }
 
+/*default hidden content*/
+#works,#press,#about,#contact {
+	display:none;
+}
+
 #logo {
 	position:absolute;
 	top:-42px;
@@ -248,6 +253,8 @@ form {
 		font-size:18px;
 	}
 }
+
+/*image styles*/
 .full-width-img {
 	width:100%;
 	display:block;
@@ -258,6 +265,8 @@ form {
 	display:block;
 	margin:15px auto;
 }
+
+/*purchasebutton syles*/
 .purchasebutton {
 	display:block;
 	margin-left:auto;
