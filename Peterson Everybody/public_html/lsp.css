@@ -117,7 +117,7 @@ body {
 }
 
 .panel {
-	box-shadow:0 5px 15px rgba(0,0,0,.1);
+	box-shadow:0 3px 10px rgba(0,0,0,.8);
 	border-radius:2px;
 	padding: 1px 14px 1px 14px;
 	background-color:#fff;
@@ -191,60 +191,60 @@ form {
 		width:700px;
 		font-size:18px;
 	}
-	
+
 	#menu {
 		padding:38px 0 74px;
 	}
-	
+
 	#menu li {
 		font-size:24px;
 	}
-	
+
 	#menu li a {
 		padding:42px 20px 36px;
 	}
-	
+
 	#menu li:nth-child(1) {
 		right:calc(50% + 235px);
 	}
-	
+
 	#menu li:nth-child(4) {
 		left:calc(50% + 235px);
 	}
-	
+
 	.rightcol {
           width:100%;
           font-size:18px;
 	}
-        
+
         .leftcol {
           float: left;
         }
-	
+
 	.book-side img {
 		width:20%;
 		float:center;
                 clear: right;
 	}
-	
+
 	.book-side button {
 		float: center;
 		clear:left;
 		margin-left:4%;
 		/*margin-bottom:2%;*/
 	}
-        
+
         .book-side p {
           text-align: justify;
         }
-	
+
 	.rightcol h1 {
 		display:block;
 		font-size:22px;
 		font-style:italic;
                 text-align: center;
 	}
-	
+
 	.leftcol {
 		width:100%;
 		font-size:18px;
