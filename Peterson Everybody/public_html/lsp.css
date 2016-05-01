@@ -258,3 +258,32 @@ form {
 	display:block;
 	margin:15px auto;
 }
+.purchasebutton {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#fce99d;
+	border:1px solid #ad9948;
+	border-radius:2px;
+	box-shadow:0 2px 5px rgba(0,0,0,.1);
+	padding:3px 8px;
+}
+
+.purchasebutton a {
+	text-decoration:none;
+	color:#000;
+}
+
+.purchasebutton:hover {
+	background-color:#fff3c5;
+	border:1px solid #e1ca6d;
+}
+
+.purchasebutton:active {
+	background-color:#dcc772;
+	border:1px solid #88762c;
+}
+
+.purchasebutton,.purchasebutton:hover,.purchasebutton a,.purchasebutton a:hover,.purchasebutton:active,.purchasebutton a:active {
+	cursor:pointer;
+}
