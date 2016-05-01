@@ -96,14 +96,12 @@ body {
 	margin-right:auto;
 }
 
-#footer {
+footer {
 	color:#222;
 	background-color:#fff;
 	padding:15px;
 	text-align:center;
-	font-family:'OpenSans',sans-serif;
 	box-shadow:0 0 15px rgba(0,0,0,.1);
-        float: bottom;
         clear: both;
 }
 
