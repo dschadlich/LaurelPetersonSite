@@ -10,7 +10,7 @@
 
 body {
 	background-color:#D1C5F5;
-	height:800px;
+	min-height:800px;
 	font-size:16px;
         font-family:"OpenSans";
 }
@@ -247,4 +247,14 @@ form {
 		width:100%;
 		font-size:18px;
 	}
+}
+.full-width-img {
+	width:100%;
+	display:block;
+	margin:15px auto;
+}
+.half-width-img {
+	width:50%;
+	display:block;
+	margin:15px auto;
 }
