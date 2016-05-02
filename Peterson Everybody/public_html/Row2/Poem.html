@@ -10,6 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
 
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 
     <style>
@@ -35,7 +36,7 @@
             font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
         .test {
-            display: none;
+            
             position: absolute;
             background-color: #D1C5F5;
             width: 14.5%;
@@ -54,6 +55,23 @@
             height: 100px;
             padding: 10px;
         }
+
+        .btn-custom{
+    border-radius: 20px;
+    margin-top: 25px;
+    border-color: #D1C5F5;
+    background-color: white;
+    color: #D1C5F5;
+    padding: 10px 40px 10px 40px;
+}
+
+
+.btn-custom:hover,.btn-custom:focus{
+    
+    border-color: white;
+    background-color: #D1C5F5;
+    color: white;
+}
         .test2 {
             position: absolute;
             top: 0;
@@ -252,7 +270,7 @@
                 <div style="color:white;" class="test">
                     <h2 class="fade" style="margin-top:20px;">BlueBeard's Closet</h2>
                     <!-- Trigger/Open The Modal -->
-                    <h5 class="fade" style="margin-top:15px; border:solid;" id="myBtn">Read</h5>
+                   <div class="btn btn-custom">Read</div>
 
 
 
@@ -363,7 +381,7 @@
     </div>
     <script>
 
-
+        /*
         var timer = setInterval(random, 2000);
 
         function random() {
@@ -375,7 +393,7 @@
             $("#"+id).toggleClass("custom");
 
 
-        }
+        }*/
         // Get the modal
         var modal = document.getElementById('myModal');
 
