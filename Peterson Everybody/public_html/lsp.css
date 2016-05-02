@@ -130,7 +130,7 @@ footer {
 	border-radius:2px;
 }
 
-.book-side .purchasebutton {
+.purchasebutton {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
@@ -141,27 +141,27 @@ footer {
 	padding:3px 8px;
 }
 
-.book-side .purchasebutton a {
+.purchasebutton a {
 	text-decoration:none;
 	color:#000;
 }
 
-.book-side .purchasebutton:hover {
+.purchasebutton:hover {
 	background-color:#fff3c5;
 	border:1px solid #e1ca6d;
 }
 
-.book-side .purchasebutton:active {
+.purchasebutton:active {
 	background-color:#dcc772;
 	border:1px solid #88762c;
 }
 
-.book-side .purchasebutton,
-.book-side .purchasebutton:hover,
-.book-side .purchasebutton a,
-.book-side .purchasebutton a:hover,
-.book-side .purchasebutton:active,
-.book-side .purchasebutton a:active {
+.purchasebutton,
+.purchasebutton:hover,
+.purchasebutton a,
+.purchasebutton a:hover,
+.purchasebutton:active,
+.purchasebutton a:active {
 	cursor:pointer;
 }
 
@@ -318,4 +318,12 @@ form {
 
 .publication h3 {
   font-style: italic;
+}
+
+.publication .quote {
+  font-style: italic;
+}
+
+.publication .purchasebutton {
+  margin:0;
 }
