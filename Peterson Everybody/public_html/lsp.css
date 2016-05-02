@@ -9,7 +9,7 @@
 }
 
 body {
-	background-color:#D1C5F5;
+	background-color:rgb(226,221,229);
 	min-height:800px;
 	font-size:16px;
         font-family:"OpenSans";
@@ -117,7 +117,7 @@ footer {
 .panel {
 	box-shadow:0 3px 10px rgba(0,0,0,.8);
 	border-radius:2px;
-	padding: 1px 14px 1px 14px;
+	padding: 5px 20px 5px 20px;
 	background-color:#fff;
   margin-bottom: 22px;
 }
