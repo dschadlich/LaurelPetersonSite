@@ -31,7 +31,7 @@ body {
 	z-index: -2;
 
 	height: 110%;
-	width:150%; 
+	width:150%;
 }
 
 #logo {
@@ -131,6 +131,25 @@ footer {
 .rightcol {
   width:33%;
   float: right;
+}
+
+#backgroundDiv{
+	background-image: url(Book_purpleflower.png);
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: cover;
+
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+	margin-top: -50px;
+
+	z-index: -2;
+
+	height: 110%;
+	width:150%; 
 }
 
 .panel {
@@ -354,3 +373,8 @@ form {
 .publication .purchasebutton {
   margin:0;
 }
+
+img{
+	opacity: 1;
+}
+
