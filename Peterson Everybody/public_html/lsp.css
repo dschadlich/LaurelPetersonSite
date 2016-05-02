@@ -141,6 +141,12 @@ footer {
   float: right;
 }
 
+.book-side h4 {
+	margin-bottom: -5px;
+	font-size: 22px;
+	margin-top: 5px;
+	}
+
 #backgroundDiv{
 	background-image: url(Book_purpleflower.png);
 	background-position: top center;
