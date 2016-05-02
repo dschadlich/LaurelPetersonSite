@@ -273,26 +273,27 @@ form {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:#fce99d;
-	border:1px solid #ad9948;
+	background-color:#9E85AF;
+	border:1px solid #9E85AF;
 	border-radius:2px;
 	box-shadow:0 2px 5px rgba(0,0,0,.1);
 	padding:3px 8px;
+     
 }
 
 .purchasebutton a {
 	text-decoration:none;
-	color:#000;
+	color:white;
 }
 
 .purchasebutton:hover {
-	background-color:#fff3c5;
-	border:1px solid #e1ca6d;
+	background-color:#7D5D94;
+	border:1px solid #9E85AF;
 }
 
 .purchasebutton:active {
-	background-color:#dcc772;
-	border:1px solid #88762c;
+	background-color:#7D5D94;
+	border:1px solid #9E85AF;
 }
 
 .purchasebutton,.purchasebutton:hover,.purchasebutton a,.purchasebutton a:hover,.purchasebutton:active,.purchasebutton a:active {
@@ -306,7 +307,7 @@ form {
   min-height: 272px;
   border: 1px solid black;
   border-radius: 4px;
-  background-color: rgb(240,234,243);
+  background-color: white;
 }
 
 .publication img {
