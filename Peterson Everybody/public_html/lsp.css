@@ -251,9 +251,15 @@ form {
 
 /*image styles*/
 .full-width-img {
-	width:100%;
-	display:block;
-	margin:15px auto;
+    width: 250px; 
+    height: 250px;
+    min-width: 150px;
+    min-height: 150px;
+    float: left;
+    margin-right:2rem;
+    border-radius: 50%;
+    -webkit-shape-outside:circle();
+    shape-outside:circle();
 }
 .half-width-img {
 	width:50%;
