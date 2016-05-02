@@ -15,11 +15,6 @@ body {
         font-family:"OpenSans";
 }
 
-/*default hidden content*/
-#works,#press,#about,#contact {
-	display:none;
-}
-
 #logo {
 	position:fixed;
 	z-index: 9;
