@@ -9,10 +9,16 @@
 }
 
 body {
-	background-color:#D1C5F5;
+	/* background-color:#D1C5F5; */
+
+	background-image: url(Book_purpleflower.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
 	min-height:800px;
 	font-size:16px;
-        font-family:"OpenSans";
+    font-family:"OpenSans";
 }
 
 /*default hidden content*/
