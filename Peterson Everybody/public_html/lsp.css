@@ -291,3 +291,31 @@ form {
 .purchasebutton,.purchasebutton:hover,.purchasebutton a,.purchasebutton a:hover,.purchasebutton:active,.purchasebutton a:active {
 	cursor:pointer;
 }
+
+.publication {
+  vertical-align: top;
+  padding: 11px;
+  margin-bottom: 17px;
+  min-height: 272px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: rgb(240,234,243);
+}
+
+.publication img {
+  height: 250px;
+}
+
+.publication .img-right {
+  float: right;
+  margin-left: 11px;
+}
+
+.publication .img-left {
+  float: left;
+  margin-right: 11px;
+}
+
+.publication h3 {
+  font-style: italic;
+}
