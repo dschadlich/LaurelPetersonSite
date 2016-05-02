@@ -9,7 +9,13 @@
 }
 
 body {
-	background-color:#D1C5F5;
+	/* background-color:#D1C5F5; */
+
+	background-image: url(Book_purpleflower.png);
+	background-position: center;
+	background-size: 140% 120%;
+	background-repeat: no-repeat;
+
 	height:800px;
 	font-size:16px;
 }
