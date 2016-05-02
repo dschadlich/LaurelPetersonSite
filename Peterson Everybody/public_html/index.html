@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -6,8 +6,6 @@
   <meta charset="UTF-8">
   <!-- <meta name="viewport" content="width=750, user-scalable=yes"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
   <link rel="stylesheet" href="normalize.css" type="text/css">
   <link rel="stylesheet" href="lsp.css" type="text/css">
@@ -32,11 +30,30 @@
   </script>
   <!-- end of twitter intergation code -->
 
+  <!-- for facebook integration -->
+  <script>
+     (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+      <!-- end of facebook integration -->
+
 </head>
 
 <body>
-  <div id="backgroundDiv"></div>
-  
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&ampversion=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   <!-- this logo works, don't change anything -->
   <a href=""><div id="logo" onclick="showMain(event, this)"></div></a>
 
@@ -54,7 +71,6 @@
 
   <div id="colcontainer" class="">
 
-
     <div class="rightcol ">
       <div class="panel book-side">
         <img class="cover" src="newbook.jpg">
@@ -67,8 +83,15 @@
         <p>Laurel Peterson's poems are about what binds us to each other, the natural world, and the spiritual world, in language that is both forceful in it's precision and tender in it's rendering: "sewn into your heart is the other end, knotted just under the fragile epicardium. We must both move, so very gently." These poems have a wonderfully wide tonal range.</p>
 
       </div>
+      <div class="panel facebook-widget">
+        <!-- without iframe
+        <div class="fb-page" data-href="https://www.facebook.com/Laurel-S-Peterson-234891603539508/" data-tabs="timeline" data-width="100%" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">Posts by Laurel S. Peterson</div>
+        -->
+        <!-- with iframe -->
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLaurel-S-Peterson-234891603539508%2F&tabs=timeline&width=270&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" data-adapt-container-width="true" frameborder="0" allowTransparency="true"></iframe>
+      </div>
       <div class="panel twitter-widget">
-        <a class="twitter-timeline" href="https://twitter.com/laurelwriter49" data-widget-id="726792824771993604" data-chrome="noheader nofooter noscrollbar" width="800">Tweets by @laurelwriter49</a>
+        <a class="twitter-timeline" data-href="https://twitter.com/laurelwriter49" data-widget-id="726792824771993604" data-chrome="noheader nofooter noscrollbar" width="800">Tweets by @laurelwriter49</a>
       </div>
       <div class="panel mailform">
         <form action="MAILTO:laurelpeterson@att.net" method="post" enctype="text/plain">
