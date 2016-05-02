@@ -267,9 +267,9 @@ form {
           font-size:18px;
 	}
 
-        .leftcol {
+    .leftcol {
           float: left;
-        }
+    }
 
 	.book-side img {
 		width:20%;
@@ -284,9 +284,9 @@ form {
 		/*margin-bottom:2%;*/
 	}
 
-        .book-side p {
-          text-align: justify;
-        }
+    .book-side p {
+        text-align: justify;
+    }
 
 	.rightcol h1 {
 		display:block;
@@ -299,6 +299,7 @@ form {
 		width:100%;
 		font-size:18px;
 	}
+	
 }
 /*image styles*/
 .full-width-img {
@@ -442,4 +443,40 @@ form {
 	#menu li:nth-child(4) {
 		left: 230px;
 	}
+}
+
+/* rightcol responsiveness */
+
+@media (max-width: 750px) {
+	
+	.panel.book-side {
+		padding-left: 0px;
+		min-height: 275px;
+	}
+	
+	.book-side .cover {
+		width: 20%;
+		float: left;
+		margin: 2%;
+	}
+	
+	.book-side .purchasebutton {
+		float: left;
+		display: block;
+		width: 20%;
+		margin: 2%;
+		margin-top: 0%;
+	}
+	
+	.book-side h4 {
+		width: 75%;
+			margin-left: 25%;
+		line-height: 1;
+		margin-bottom: 5px;
+		}
+		
+		.book-side p {
+			width: 75%;
+			margin-left: 25%;
+		}
 }
