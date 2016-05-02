@@ -21,7 +21,9 @@ body {
 }
 
 #logo {
-	position:absolute;
+	position:fixed;
+	z-index: 9;
+	display: block;
 	top:-42px;
 	left:calc(50% - 98px);
 	height:198px;
@@ -32,38 +34,40 @@ body {
 	border-radius:96px;
 	background-position:16px 37px;
 	background-repeat:no-repeat;
-	z-index:2;
 }
 
 #circle {
-	position:absolute;
+	position:fixed;
+	z-index: 7;
+	display: block;
 	height:192px;
 	width:192px;
 	top:-32px;
 	left:calc(50% - 96px);
 	background-color:#fff;
 	border-radius:96px;
-	box-shadow:0 0 15px rgba(0,0,0,.1);
-	z-index:-1;
+	box-shadow:0 0 20px rgba(0,0,0,.35);
 }
 
 #menu {
 	list-style-type:none;
 	background-color:#fff;
-	position:absolute;
+	position:fixed;
+	z-index: 8;
+	display: block;
 	top:0;
 	padding:44px 0 68px;
 	width:100%;
 	margin-top:0;
-	box-shadow:0 0 15px rgba(0,0,0,.1);
-	z-index:-1;
-}
+	box-shadow:0 0 20px rgba(0,0,0,.35);
+	}
 
 #menu li {
 	position:absolute;
 	font-family:'Goudy Bookletter 1911',serif;
 	font-size:20px;
 	color:#222;
+	position:fixed;
 }
 
 #menu li a {
@@ -318,8 +322,8 @@ form {
         #circle {
             width: 100px;
             height: 100px;
-            z-index: -1;
-            position: absolute;
+            z-index: 7;
+            position: fixed;
             left: 0;
             top: -25px;
             
@@ -327,7 +331,7 @@ form {
         #logo {
             width: 100px;
             height: 100px;
-            position: absolute;
+            position: fixed;
             left: 0;
             top: -25px;
             background-size: 87px 87px;
