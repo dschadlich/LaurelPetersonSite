@@ -200,24 +200,6 @@ footer a {
 	color:#000;
 }
 
-.purchasebutton:hover {
-	background-color:#fff3c5;
-	border:1px solid #e1ca6d;
-}
-
-.purchasebutton:active {
-	background-color:#dcc772;
-	border:1px solid #88762c;
-}
-
-.purchasebutton,
-.purchasebutton:hover,
-.purchasebutton a,
-.purchasebutton a:hover,
-.purchasebutton:active,
-.purchasebutton a:active {
-	cursor:pointer;
-}
 
 form {
 	padding:3.5%;
@@ -318,8 +300,7 @@ form {
 		display:block;
 		font-size:24px;
 		font-style:italic;
-                text-align: center;
-	}
+                text-align: center;	}
 
 	.leftcol {
 		width:100%;
@@ -356,8 +337,8 @@ form {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:#9E85AF;
-	border:1px solid #9E85AF;
+	background: linear-gradient(#ffb700, #ff8500);
+	border:1px solid #ff8500;
 	border-radius:2px;
 	box-shadow:0 2px 5px rgba(0,0,0,.1);
 	padding:3px 8px;
@@ -366,18 +347,30 @@ form {
 
 .purchasebutton a {
 	text-decoration:none;
-	color:white;
-}
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	text-shadow: 0px 1px #452400;
+	}
 
 .purchasebutton:hover {
-	background-color:#7D5D94;
-	border:1px solid #9E85AF;
+	background: linear-gradient(#ffd059, #ffaa4e);
+	border:1px solid #ffae57;
 }
 
+.purchasebutton a:hover {
+	text-shadow: 0px 1px #6a441b;
+	}
+
 .purchasebutton:active {
-	background-color:#7D5D94;
-	border:1px solid #9E85AF;
+	background: linear-gradient(#a95700, #b98500);
+	border:1px solid #a95700;
 }
+
+.purchasebutton a:active{
+	text-shadow: 0px -1px #4c2700;
+	color: rgba(255,255,255,.8);
+	}
 
 .purchasebutton,.purchasebutton:hover,.purchasebutton a,.purchasebutton a:hover,.purchasebutton:active,.purchasebutton a:active {
 	cursor:pointer;
@@ -503,6 +496,7 @@ form {
 			margin-left: 25%;
 		line-height: 1;
 		margin-bottom: 5px;
+		margin-top: 3%;
 		}
 		
 		.book-side p {
