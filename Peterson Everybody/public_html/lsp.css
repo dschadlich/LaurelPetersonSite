@@ -306,6 +306,11 @@ form {
 		font-size:18px;
 	}
 	
+	.mailform {
+		display: none;
+		visibility: hidden;
+	}
+	
 }
 /*image styles*/
 .full-width-img {
