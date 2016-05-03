@@ -231,6 +231,11 @@ form {
 	margin-bottom:10px;
 }
 
+.mailform strong {
+	font-size: 24px;
+	font-weight: 200;
+}
+
 .mailinputs {
 	color:#999;
 	font-style:italic;
@@ -241,10 +246,11 @@ form {
 	width:100%;
 }
 
-#press h2, #about h2 {
+#press h2, #about h2, #publications h2 {
 	font-size: 26px;
 	margin-top: 1.5%;
 	margin-bottom: -10px;
+	font-weight: 200;
 }
 
 @media (max-width: 750px) {
