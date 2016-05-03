@@ -251,6 +251,11 @@ form {
 	margin-top: 1.5%;
 	margin-bottom: -10px;
 	font-weight: 200;
+	margin-left: 3%;
+}
+
+#publications h2 {
+	margin-left: 4%;
 }
 
 @media (max-width: 750px) {
