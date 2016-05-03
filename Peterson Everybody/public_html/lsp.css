@@ -192,12 +192,12 @@ footer a {
 	border:1px solid #ad9948;
 	border-radius:2px;
 	box-shadow:0 2px 5px rgba(0,0,0,.1);
-	padding:3px 8px;
+	padding: 3px 8px;
 }
 
 .purchasebutton a {
 	text-decoration:none;
-	color:#000;
+	color:#000;       
 }
 
 
@@ -232,12 +232,10 @@ form {
 	font-size: 26px;
 	margin-top: 1.5%;
 	margin-bottom: -10px;
-	font-weight: 200;
-	margin-left: 3%;
-}
-
-#publications h2 {
-	margin-left: 4%;
+	font-weight: 400;	
+        text-align: center;
+        color: white;
+        background-color: #964592;
 }
 
 @media (max-width: 750px) {
@@ -390,11 +388,13 @@ form {
 .publication .img-right {
   float: right;
   margin-left: 11px;
+  margin-top: 11px;
 }
 
 .publication .img-left {
   float: left;
   margin-right: 11px;
+  margin-top: 11px;
 }
 
 .publication h3 {
