@@ -453,18 +453,22 @@ form {
 
 	#menu li:nth-child(1) {
 		left: 90px;
+		width: 60px;
 	}
 
         #menu li:nth-child(2) {
-		left: 140px;
+		left: 47%;
+		width: 60px;
 	}
 
         #menu li:nth-child(3) {
-		left: 185px;
+		left: 64%;
+		width: 60px;
 	}
 
 	#menu li:nth-child(4) {
-		left: 230px;
+		left: 81%;
+		width: 60px;
 	}
 	
 	.book-side .cover {
@@ -474,8 +478,10 @@ form {
 	.book-side .purchasebutton {
 		min-width: 100px;
 		}
-	
-	
+		
+		#colcontainer {
+			margin-top: 90px;
+		}
 }
 
 /* rightcol responsiveness */
@@ -513,4 +519,13 @@ form {
 			width: 75%;
 			margin-left: 25%;
 		}
+}
+
+/* twitter widget styles */
+
+.panel.twitter-widget {
+	background-color: rgba(255,255,255,0);
+	padding: 0px 1px 0px 0px;
+	height: 200px;
+	opacity: .85;
 }
