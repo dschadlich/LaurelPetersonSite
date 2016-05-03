@@ -466,6 +466,16 @@ form {
 	#menu li:nth-child(4) {
 		left: 230px;
 	}
+	
+	.book-side .cover {
+		min-width: 100px;
+	}
+	
+	.book-side .purchasebutton {
+		min-width: 100px;
+		}
+	
+	
 }
 
 /* rightcol responsiveness */
