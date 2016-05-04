@@ -219,10 +219,6 @@ form {
 	margin-bottom: -30px;
 }
 
-.mailinputs {
-	color:#999;
-	font-style:italic;
-}
 
 .commentfield {
 	padding-bottom:4em;
@@ -239,6 +235,16 @@ form {
 
 #publications h2 {
 	margin-left: 4%;
+}
+
+#leftmail {
+    display: none;
+    visibility: hidden;
+}
+
+#rightmail {
+    display: block;
+    visibility: visible;
 }
 
 @media (max-width: 750px) {
@@ -312,6 +318,15 @@ form {
 		display: none;
 		visibility: hidden;
 	}
+        #rightmail {
+    display: none;
+    visibility: hidden;
+}
+        
+        #leftmail {
+    display: block;
+    visibility: visible;
+}
 
 }
 /*image styles*/
