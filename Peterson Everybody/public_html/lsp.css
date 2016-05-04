@@ -232,8 +232,9 @@ form {
 	font-size: 26px;
 	margin-top: 1.5%;
 	margin-bottom: -10px;
-	font-weight: 200;
+	font-weight: 400;
 	margin-left: 3%;
+        text-align: center;
 }
 
 #publications h2 {
