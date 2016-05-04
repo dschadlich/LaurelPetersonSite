@@ -232,14 +232,10 @@ form {
 	font-size: 26px;
 	margin-top: 1.5%;
 	margin-bottom: -10px;
-	font-weight: 400;
-	margin-left: 3%;
+	font-weight: 500;	
         text-align: center;
 }
 
-#publications h2 {
-	margin-left: 4%;
-}
 
 @media (max-width: 750px) {
 	body {
@@ -577,4 +573,36 @@ form {
 	padding: 0px 1px 0px 0px;
 	height: 200px;
 	opacity: .85;
+}
+
+
+
+.social-media-icon {
+     background-size: 40px 40px;
+     display:inline-block;
+     min-height: 40px;
+     min-width: 40px;
+     margin-right: 10px;
+}
+
+.twitter-icon{
+    background-image : url(img/twitter.png);
+}
+
+.facebook-icon {
+        background-image : url(img/facebook.png);
+
+}
+.linkedin-icon {
+   background-image : url(img/linkedin.png);
+
+}
+
+.amazon-icon {
+   background-image : url(img/amazon.png);
+
+}
+
+.goodreads-icon {
+   background-image : url(img/goodreads.png);  
 }
