@@ -92,7 +92,7 @@
 }
 
 .col-xs-4{
-    width: 33%;
+    width: 30%;
     float:left;
 }
 
@@ -103,4 +103,12 @@
 
 .clearfix {
     overflow: auto;
+}
+.poem_wrapper{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
 }
