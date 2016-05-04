@@ -46,7 +46,7 @@
      
         
         .close {
-            color: black;
+            color: white;
             float: right;
             font-size: 28px;
             font-weight: bold;
@@ -89,4 +89,18 @@
 
 .text_center{
     text-align: center;
+}
+
+.col-xs-4{
+    width: 33%;
+    float:left;
+}
+
+.col-xs-12{
+    width:100%;
+    float:left;
+}
+
+.clearfix {
+    overflow: auto;
 }
