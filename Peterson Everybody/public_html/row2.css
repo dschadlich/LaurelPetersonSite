@@ -60,7 +60,7 @@
         }
         .modal-header {
             padding: 2px 16px;
-            background:linear-gradient(#ffb700, #ff8500);
+            background:#11c700;
             color: white;
         }
         .modal-body {
@@ -70,12 +70,14 @@
         }
         .modal-footer {
             padding: 2px 16px;
-            background:linear-gradient(#ffb700, #ff8500);
+            background:#11c700;
             color: white;
         }
 
         #myBtn{
             color:white;
+            margin-bottom: 10px;
+            margin-top:10px;
         }
 
 
@@ -93,12 +95,12 @@
 
 .col-xs-4{
     width: 30%;
-    float:left;
+   
 }
 
 .col-xs-12{
     width:100%;
-    float:left;
+   
 }
 
 .clearfix {
@@ -107,6 +109,12 @@
 .poem_wrapper{
     display:flex;
     justify-content: space-between;
+}
+
+
+#poem{
+    margin-bottom:20px; 
+    margin-top:20px;
 }
 
 
