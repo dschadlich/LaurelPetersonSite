@@ -33,12 +33,25 @@
   </script>
   <!-- end of twitter intergation code -->
 
+  <!-- for facebook integration -->
+  <script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- end of facebook integration -->
+
 </head>
 
 <body>
 
-  <div id="backgroundDiv"></div>
+  <div id="backgroundDiv" ></div>
 
+  <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
@@ -102,7 +115,7 @@
         <a class="twitter-timeline" data-href="https://twitter.com/laurelwriter49" data-widget-id="726792824771993604" data-chrome="noheader nofooter noscrollbar" width="800" height="auto">Tweets by @laurelwriter49</a>
       </div>
 
-    	    <div id="press" class="panel">
+    	<div id="press" class="panel">
         <h2 class="">Press</h2>
         <hr>
         <p class="quote">"During her yearlong tenure as Norwalk’s first poet laureate, Laurel Peterson will work to disseminate poetry in Norwalk’s public sphere. Her first project, a selection of poems to be displayed on Norwalk busses, will go on display this month." &ndash;<a href="http://thehour.ct.newsmemory.com/publink.php?shareid=1624dbee5#">The Hour</a></p>
