@@ -8,7 +8,7 @@
             z-index: 1;
             /* Sit on top */
             
-            padding-top: 150px;
+            padding-top: 170px;
             /* Location of the box */
             
             left: 0;
@@ -16,7 +16,7 @@
             width: 100%;
             /* Full width */
             
-            height: 100%;
+            height: 72%;
             /* Full height */
             
             overflow: auto;
@@ -60,7 +60,7 @@
         }
         .modal-header {
             padding: 2px 16px;
-            background:#11c700;
+            background:#222;
             color: white;
         }
         .modal-body {
@@ -70,7 +70,7 @@
         }
         .modal-footer {
             padding: 2px 16px;
-            background:#11c700;
+            background:#222;
             color: white;
         }
 
@@ -119,4 +119,19 @@
 
 
 
+@media (max-width: 665px) {
+ .col-xs-4{
+    width: 100%;
+   
 }
+.poem_image{
+    width: 75%;
+    display: table;
+    margin: auto ;
+
+}
+.poem_wrapper{
+    display: block;
+}
+
+  }

@@ -618,6 +618,19 @@ form {
      margin-right: 7px;
 }
 
+.social-media-icon2 {
+     background-size: 40px 40px;
+     display:inline-block;
+     min-height: 40px;
+     min-width: 40px;
+     
+}
+.socialMedia{
+	display:flex;
+	justify-content:space-between;
+	padding:15px 5px 15px 5px;
+}
+
 .twitter-icon{
     background-image : url(img/twitter.png);
 }
@@ -639,3 +652,5 @@ form {
 .goodreads-icon {
    background-image : url(img/goodreads.png);
 }
+
+
