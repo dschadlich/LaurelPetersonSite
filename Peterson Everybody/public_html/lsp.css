@@ -216,7 +216,7 @@ form {
 	width:100%;
 }
 
-#press h2, #about h2, #publications h2, #poem h2, #works h2 {
+#press h2, #about h2, #publications h2, #poem h2, #works h2,#tweets h2 {
 	font-size: 28px;
 	margin-top: 1.5%;
 	margin-bottom: -10px;
