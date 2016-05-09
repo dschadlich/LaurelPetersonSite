@@ -173,7 +173,7 @@ footer a {
 
 .purchasebutton {
 	display:block;
-	margin-left:auto;
+	margin-left: auto;
 	margin-right:auto;
 	background-color:#fce99d;
 	border:1px solid #ad9948;
@@ -184,6 +184,8 @@ footer a {
 
 .purchasebutton a {
 	text-decoration:none;
+        font-size: 18px;
+        text-align: center;
 	color:#000;
 }
 
@@ -530,6 +532,13 @@ form {
             display: block;
             margin-right: 11px;
             margin-top: 11px;
+        }
+        .full-width-img {
+            display: box;
+            width: 250px;
+            height: 250px;
+            
+            margin-bottom: 10px;
         }
 }
 
