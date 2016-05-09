@@ -131,7 +131,11 @@
     margin-top:20px;
 }
 
-
+.socialMedia{
+ display:flex;
+    justify-content: space-between;
+    padding-left: 7px;
+}
 
 @media (max-width: 665px) {
  .col-xs-4{

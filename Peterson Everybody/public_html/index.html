@@ -61,14 +61,12 @@
     <div class="rightcol ">
       <div class="panel ">
 
-        <div class=" socialMedia">
-
-            <a class="facebook-icon social-media-icon2" href="https://www.facebook.com/Laurel-S-Peterson-234891603539508/"></a>
-            <a class="twitter-icon social-media-icon2" href="https://twitter.com/laurelwriter49"></a>
-            <a class="linkedin-icon social-media-icon2" href="https://www.linkedin.com/in/laurel-peterson-3819a33"></a>
-            <a class="amazon-icon social-media-icon2" href="http://www.amazon.com/Laurel-S.-Peterson/e/B0164H3IDS"></a>
-            <a class="goodreads-icon social-media-icon2" href="http://www.goodreads.com/author/show/3414564.Laurel_S_Peterson"></a>
-
+        <div class="socialMedia">
+            <a class="facebook-icon social-media-icon" href="https://www.facebook.com/Laurel-S-Peterson-234891603539508/" target="blank"></a>
+            <a class="twitter-icon social-media-icon" href="https://twitter.com/laurelwriter49" target="blank"></a>
+            <a class="linkedin-icon social-media-icon" href="https://www.linkedin.com/in/laurel-peterson-3819a33" target="blank"></a>
+            <a class="amazon-icon social-media-icon" href="http://www.amazon.com/Laurel-S.-Peterson/e/B0164H3IDS" target="blank"></a>
+            <a class="goodreads-icon social-media-icon" href="http://www.goodreads.com/author/show/3414564.Laurel_S_Peterson" target="blank"></a>
         </div>
     </div>
       <div class="panel book-side">
@@ -320,7 +318,7 @@
                 at 87.
                 It’s that or a heart attack,
                 my gynecologist
-                flipped off.
+                flipped off. 
                 No children, I.
                 Not that loss.
                 Even diminutive,
@@ -369,6 +367,8 @@
 
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
+        var span2 = document.getElementsByClassName("close2")[0];
+
 
         // When the user clicks the button, open the modal
         btn.onclick = function() {
@@ -381,6 +381,10 @@
         span.onclick = function() {
             modal.style.display = "none";
         }
+        span2.onclick = function() {
+            modal.style.display = "none";
+        }
+
 
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function(event) {
