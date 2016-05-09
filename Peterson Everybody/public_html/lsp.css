@@ -347,17 +347,12 @@ form {
 
 /*purchasebutton syles*/
 .purchasebutton {
-  background: #11c700;
-  background-image: -webkit-linear-gradient(top, #11c700, #0ba300);
-  background-image: -moz-linear-gradient(top, #11c700, #0ba300);
-  background-image: -ms-linear-gradient(top, #11c700, #0ba300);
-  background-image: -o-linear-gradient(top, #11c700, #0ba300);
-  background-image: linear-gradient(to bottom, #11c700, #0ba300);
+  background: #656565;
   -webkit-border-radius: 2;
   -moz-border-radius: 2;
   border-radius: 2px;
   text-shadow: 0px 1px 0px #111111;
-  color: #fff;
+  color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -367,49 +362,39 @@ form {
 }
 
 .purchasebutton a {
-    color: #fff;
+    color: white;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     text-shadow: 0px 1px 0px #111111;
 }
 
 .purchasebutton:hover {
-  background: #0fb000;
-  background-image: -webkit-linear-gradient(top, #0fb000, #0e8a00);
-  background-image: -moz-linear-gradient(top, #0fb000, #0e8a00);
-  background-image: -ms-linear-gradient(top, #0fb000, #0e8a00);
-  background-image: -o-linear-gradient(top, #0fb000, #0e8a00);
-  background-image: linear-gradient(to bottom, #0fb000, #0e8a00);
+  background: #656565;
   text-decoration: none;
-  color: #fff;
+  color: white;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     text-shadow: 0px 1px 0px #111111;
 }
 
 .purchasebutton a:hover {
-    color: #fff;
+    color: white;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     text-shadow: 0px 1px 0px #111111;
 }
 
 .purchasebutton:active {
-  background: #108c00;
-  background-image: -webkit-linear-gradient(top, #108c00, #0c5c00);
-  background-image: -moz-linear-gradient(top, #108c00, #0c5c00);
-  background-image: -ms-linear-gradient(top, #108c00, #0c5c00);
-  background-image: -o-linear-gradient(top, #108c00, #0c5c00);
-  background-image: linear-gradient(to bottom, #108c00, #0c5c00);
+  background: #656565;
   text-decoration: none;
-   color: #ccc;
+   color: white;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     text-shadow: 0px 1px 0px #111111;
 }
 
 .purchasebutton a:active {
-    color: #ccc;
+    color: white;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     text-shadow: 0px -1px 0px #111111;
