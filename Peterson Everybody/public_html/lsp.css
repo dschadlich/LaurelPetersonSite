@@ -531,6 +531,19 @@ form {
 		#colcontainer {
 			margin-top: 90px;
 		}
+        .publication .img-right {
+            float: left;
+            display: block;
+            margin-left: 11px;
+            margin-top: 11px;
+        }
+
+        .publication .img-left {
+            float: left;
+            display: block;
+            margin-right: 11px;
+            margin-top: 11px;
+        }
 }
 
 /* rightcol responsiveness */
