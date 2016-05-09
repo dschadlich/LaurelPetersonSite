@@ -41,7 +41,7 @@
             -webkit-animation-name: animatetop;
             -webkit-animation-duration: 0.4s;
             animation-name: animatetop;
-            animation-duration: 0.4s
+            animation-duration: 0.4s;
         }
      
         
@@ -88,12 +88,11 @@
             color: white;
         }
 
-        #myBtn{
-            color:white;
+          
+   
+     .modalbtn{ color:white;
             margin-bottom: 10px;
-            margin-top:10px;
-        }
-
+            margin-top:10px;}
 
 .poem_wrapper{
     margin-top: 20px;
