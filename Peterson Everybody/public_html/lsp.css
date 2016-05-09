@@ -117,6 +117,10 @@ img{
 	margin-right:auto;
 }
 
+.newbook {
+    text-align: center;
+    text-decoration: none;
+}
 footer {
 	color:#000;
 	background-color:rgba(255,255,255,.85);
