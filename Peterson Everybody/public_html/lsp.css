@@ -119,6 +119,7 @@ img{
 
 .newbook {
     text-align: center;
+    font-family:'Goudy Bookletter 1911',serif;
     text-decoration: none;
 }
 footer {
@@ -228,17 +229,15 @@ form {
 	width:100%;
 }
 
-#press h2, #about h2, #publications h2, #poem h2 {
-	font-size: 26px;
+#press h2, #about h2, #publications h2, #poem h2, #works h2 {
+	font-size: 28px;
 	margin-top: 1.5%;
 	margin-bottom: -10px;
-	font-weight: 500;
+	font-family:'Goudy Bookletter 1911',serif;
+        
         text-align: center;
 }
 
-#works h2 {
-	margin-left: 4%;
-}
 
 #leftmail {
     display: none;
