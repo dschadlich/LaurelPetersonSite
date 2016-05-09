@@ -14,10 +14,11 @@ img{
 }
 
 #backgroundDiv{
+	background-image:url(Book_purpleflower.jpg);
 
 	background-position: top center;
-	background-attachment: fixed;
 	background-repeat: repeat;
+	background-attachment: fixed;
 	background-size: cover;
 
 	position: fixed;
@@ -117,6 +118,11 @@ img{
 	margin-right:auto;
 }
 
+.newbook {
+    text-align: center;
+    font-family:'Goudy Bookletter 1911',serif;
+    text-decoration: none;
+}
 footer {
 	color:#000;
 	background-color:rgba(255,255,255,.85);
@@ -165,6 +171,7 @@ footer a {
 
 	height: 110%;
 	width:150%;
+
 }
 
 .panel {
@@ -228,17 +235,15 @@ form {
 	width:100%;
 }
 
-#press h2, #about h2, #publications h2, #poem h2 {
-	font-size: 26px;
+#press h2, #about h2, #publications h2, #poem h2, #works h2 {
+	font-size: 28px;
 	margin-top: 1.5%;
 	margin-bottom: -10px;
-	font-weight: 500;
+	font-family:'Goudy Bookletter 1911',serif;
+
         text-align: center;
 }
 
-#works h2 {
-	margin-left: 4%;
-}
 
 #leftmail {
     display: none;
@@ -461,6 +466,10 @@ form {
   margin:0;
 }
 
+.lastest-book-right-col {
+    text-align: center;
+}
+
 
 @media (max-width: 639px) {
     	#menu {
@@ -533,6 +542,19 @@ form {
 		#colcontainer {
 			margin-top: 90px;
 		}
+        .publication .img-right {
+            float: left;
+            display: block;
+            margin-left: 11px;
+            margin-top: 11px;
+        }
+
+        .publication .img-left {
+            float: left;
+            display: block;
+            margin-right: 11px;
+            margin-top: 11px;
+        }
 }
 
 /* rightcol responsiveness */
@@ -616,15 +638,6 @@ form {
                 footer {
                     font-size: 14px;
                 }
-}
-
-/* twitter widget styles */
-
-.panel .twitter-widget {
-	background-color: rgba(255,255,255,0);
-	padding: 0px 1px 0px 0px;
-	height: 200px;
-	opacity: .85;
 }
 
 
