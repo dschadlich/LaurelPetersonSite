@@ -542,6 +542,13 @@ form {
             margin-right: 11px;
             margin-top: 11px;
         }
+        .full-width-img {
+            display: box;
+            width: 250px;
+            height: 250px;
+            
+            margin-bottom: 10px;
+        }
 }
 
 /* rightcol responsiveness */
