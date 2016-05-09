@@ -125,7 +125,7 @@ footer {
 	box-shadow:0 0 15px rgba(0,0,0,.1);
         clear: both;
         line-height: 1.6;
-       
+
 }
 
 footer a {
@@ -569,11 +569,8 @@ form {
 }
 
 /* twitter widget styles */
-
-.panel.twitter-widget {
-	background-color: rgba(255,255,255,0);
+.twitter-widget {
 	padding: 0px 1px 0px 0px;
-	height: 200px;
 	opacity: .85;
 }
 
@@ -619,7 +616,7 @@ form {
 
 /* twitter widget styles */
 
-.panel.twitter-widget {
+.panel .twitter-widget {
 	background-color: rgba(255,255,255,0);
 	padding: 0px 1px 0px 0px;
 	height: 200px;
