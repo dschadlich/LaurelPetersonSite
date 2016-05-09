@@ -120,7 +120,7 @@ img{
 
 .newbook {
     text-align: center;
-    font-family:'Goudy Bookletter 1911',serif;
+    font-family:'Open Sans', sans-serif;
     text-decoration: none;
 }
 footer {
@@ -215,8 +215,8 @@ form {
 	font-size: 28px;
 	margin-top: 1.5%;
 	margin-bottom: -10px;
-	font-family:'Goudy Bookletter 1911',serif;
-
+	font-family:'Open Sans', sans-serif;
+        font-weight: 200;
         text-align: center;
 }
 
@@ -628,23 +628,23 @@ form {
 }
 
 .twitter-icon{
-    background-image : url(img/twitter.png);
+    background-image : url(img/twittericon.png);
 }
 
 .facebook-icon {
-        background-image : url(img/facebook.png);
+        background-image : url(img/fbicon.png);
 
 }
 .linkedin-icon {
-   background-image : url(img/linkedin.png);
+   background-image : url(img/linkedinicon.png);
 
 }
 
 .amazon-icon {
-   background-image : url(img/amazon.png);
+   background-image : url(img/amazonicon.png);
 
 }
 
 .goodreads-icon {
-   background-image : url(img/goodreads.png);
+   background-image : url(img/goodreadsicon.png);
 }
