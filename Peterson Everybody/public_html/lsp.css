@@ -472,6 +472,7 @@ form {
             background-position: 5px 28px;
         }
 
+
 	#menu li {
 		font-size:16px;
 	}
@@ -510,6 +511,9 @@ form {
 
 		#colcontainer {
 			margin-top: 90px;
+		}
+		.modal{
+			padding-top: 15vh;
 		}
 }
 
