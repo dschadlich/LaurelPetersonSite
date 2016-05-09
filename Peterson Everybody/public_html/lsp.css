@@ -118,6 +118,11 @@ img{
 	margin-right:auto;
 }
 
+.newbook {
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+    text-decoration: none;
+}
 footer {
 	color:#000;
 	background-color:rgba(255,255,255,.85);
@@ -126,7 +131,7 @@ footer {
 	box-shadow:0 0 15px rgba(0,0,0,.1);
         clear: both;
         line-height: 1.6;
-       
+
 }
 
 footer a {
@@ -148,6 +153,25 @@ footer a {
 	margin-top: 5px;
 	font-style: italic;
 	font-weight: 600;
+	}
+
+#backgroundDiv{
+	background-image: url(Book_purpleflower.png);
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: cover;
+
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin-top: -50px;
+
+	z-index: -2;
+
+	height: 110%;
+	width:150%;
+
 }
 
 .panel {
@@ -156,6 +180,11 @@ footer a {
 	padding: 5px 20px 5px 20px;
 	background-color:rgba(255,255,255,.85);
   margin-bottom: 22px;
+}
+
+.icons-top {
+	display: inline-block;
+	text-align: right;
 }
 
 .book-side .cover {
@@ -207,16 +236,14 @@ form {
 }
 
 #press h2, #about h2, #publications h2, #poem h2, #works h2 {
-	font-size: 26px;
+	font-size: 28px;
 	margin-top: 1.5%;
 	margin-bottom: -10px;
-	font-weight: 500;
+	font-family:'Open Sans', sans-serif;
+        font-weight: 200;
         text-align: center;
 }
 
-#works h2 {
-	margin-left: 4%;
-}
 
 #leftmail {
     display: none;
@@ -439,6 +466,10 @@ form {
   margin:0;
 }
 
+.lastest-book-right-col {
+    text-align: center;
+}
+
 
 @media (max-width: 639px) {
     	#menu {
@@ -511,6 +542,19 @@ form {
 		#colcontainer {
 			margin-top: 90px;
 		}
+        .publication .img-right {
+            float: left;
+            display: block;
+            margin-left: 11px;
+            margin-top: 11px;
+        }
+
+        .publication .img-left {
+            float: left;
+            display: block;
+            margin-right: 11px;
+            margin-top: 11px;
+        }
 }
 
 /* rightcol responsiveness */
@@ -551,12 +595,10 @@ form {
 }
 
 /* twitter widget styles */
-
-.panel.twitter-widget {
-	background-color: rgba(255,255,255,0);
+.twitter-widget {
 	padding: 0px 1px 0px 0px;
-	height: 200px;
 	opacity: .85;
+	min-
 }
 
 /* rightcol responsiveness */
@@ -599,15 +641,6 @@ form {
                 }
 }
 
-/* twitter widget styles */
-
-.panel.twitter-widget {
-	background-color: rgba(255,255,255,0);
-	padding: 0px 1px 0px 0px;
-	height: 200px;
-	opacity: .85;
-}
-
 
 
 .social-media-icon {
@@ -619,23 +652,23 @@ form {
 }
 
 .twitter-icon{
-    background-image : url(img/twitter.png);
+    background-image : url(img/twittericon.png);
 }
 
 .facebook-icon {
-        background-image : url(img/facebook.png);
+        background-image : url(img/fbicon.png);
 
 }
 .linkedin-icon {
-   background-image : url(img/linkedin.png);
+   background-image : url(img/linkedinicon.png);
 
 }
 
 .amazon-icon {
-   background-image : url(img/amazon.png);
+   background-image : url(img/amazonicon.png);
 
 }
 
 .goodreads-icon {
-   background-image : url(img/goodreads.png);
+   background-image : url(img/goodreadsicon.png);
 }
