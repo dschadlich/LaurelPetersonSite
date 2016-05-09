@@ -159,7 +159,6 @@ footer a {
 	position: fixed;
 	top: 0px;
 	left: 0px;
-
 	margin-top: -50px;
 
 	z-index: -2;
@@ -174,6 +173,11 @@ footer a {
 	padding: 5px 20px 5px 20px;
 	background-color:rgba(255,255,255,.85);
   margin-bottom: 22px;
+}
+
+.icons-top {
+	display: inline-block;
+	text-align: right;
 }
 
 .book-side .cover {
