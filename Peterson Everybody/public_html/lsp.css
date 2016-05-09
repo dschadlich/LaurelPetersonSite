@@ -457,6 +457,10 @@ form {
   margin:0;
 }
 
+.lastest-book-right-col {
+    text-align: center;
+}
+
 
 @media (max-width: 639px) {
     	#menu {
