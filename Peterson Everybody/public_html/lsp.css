@@ -118,6 +118,11 @@ img{
 	margin-right:auto;
 }
 
+.newbook {
+    text-align: center;
+    font-family:'Goudy Bookletter 1911',serif;
+    text-decoration: none;
+}
 footer {
 	color:#000;
 	background-color:rgba(255,255,255,.85);
@@ -207,12 +212,14 @@ form {
 }
 
 #press h2, #about h2, #publications h2, #poem h2, #works h2 {
-	font-size: 26px;
+	font-size: 28px;
 	margin-top: 1.5%;
 	margin-bottom: -10px;
-	font-weight: 500;
+	font-family:'Goudy Bookletter 1911',serif;
+
         text-align: center;
 }
+
 
 #leftmail {
     display: none;
@@ -607,15 +614,6 @@ form {
                 footer {
                     font-size: 14px;
                 }
-}
-
-/* twitter widget styles */
-
-.panel .twitter-widget {
-	background-color: rgba(255,255,255,0);
-	padding: 0px 1px 0px 0px;
-	height: 200px;
-	opacity: .85;
 }
 
 
