@@ -645,6 +645,38 @@ form {
 }
 
 
+
+
+#tweets .social-media-icon {
+	background-size: 30px 30px;
+     display:inline-block;
+     height: 30px;
+     width: 30px;
+     margin-right: 5px;
+}
+
+.publication em {
+	font-style: normal;
+	display: block;
+	text-align: right;
+	height: 0px;
+}
+
+.publication .rightalign {
+	display: block;
+	text-align: right;
+}
+
+.publication .rightalignbutton {
+	float: right;
+}
+
+.rightalignp {
+	display: block;
+text-align: left;
+margin-top: 40px;
+}
+
 @media (max-width: 639px) {
     	#menu {
         	width: 100%;
@@ -719,8 +751,9 @@ form {
         .publication .img-right {
             float: left;
             display: block;
-            margin-left: 11px;
+            margin-left: 0px;
             margin-top: 11px;
+            margin-right: 11px;
         }
 
         .publication .img-left {
@@ -741,34 +774,27 @@ form {
         .purchasebutton {
 	        padding-top: 0px;
         }
-}
-
-#tweets .social-media-icon {
-	background-size: 30px 30px;
-     display:inline-block;
-     height: 30px;
-     width: 30px;
-     margin-right: 5px;
-}
-
-.publication em {
+        
+        
+        
+        .publication em {
 	font-style: normal;
 	display: block;
-	text-align: right;
-	height: 0px;
+	text-align: left;
 }
 
 .publication .rightalign {
 	display: block;
-	text-align: right;
+	text-align: left;
 }
 
 .publication .rightalignbutton {
-	float: right;
+	float: left;
 }
 
 .rightalignp {
 	display: block;
 text-align: left;
 margin-top: 40px;
+}
 }
