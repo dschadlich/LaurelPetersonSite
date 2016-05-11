@@ -336,11 +336,11 @@ form {
 /*purchasebutton syles*/
 .purchasebutton {
   background: #656565;
-  background-image: -webkit-linear-gradient(top, #497345, #375633);
-  background-image: -moz-linear-gradient(top, #497345, #375633);
-  background-image: -ms-linear-gradient(top, #497345, #375633);
-  background-image: -o-linear-gradient(top, #497345, #375633);
-  background-image: linear-gradient(to bottom, #497345, #375633);
+  background-image: -webkit-linear-gradient(top, #35b429, #206c15);
+  background-image: -moz-linear-gradient(top, #35b429, #206c15);
+  background-image: -ms-linear-gradient(top, #35b429, #206c15);
+  background-image: -o-linear-gradient(top, #35b429, #206c15);
+  background-image: linear-gradient(to bottom, #35b429, #206c15);
   -webkit-border-radius: 2;
   -moz-border-radius: 2;
   border-radius: 2px;
@@ -350,32 +350,39 @@ form {
   font-weight: 400;
   font-size: 20px;
   padding: 3px 16px 3px 16px;
-  border: solid black 1px;
+  border: solid #125812 1px;
   text-decoration: none;
 }
 
-.purchasebutton:hover,
+.purchasebutton:hover {
+  background: #656565;
+  background-image: -webkit-linear-gradient(top, #2c9d22, #1a5511);
+  background-image: -moz-linear-gradient(top, #2c9d22, #1a5511);
+    background-image: -ms-linear-gradient(top, #2c9d22, #1a5511);
+  background-image: -o-linear-gradient(top, #2c9d22, #1a5511);
+    background-image: linear-gradient(to bottom, #2c9d22, #1a5511);
+  text-decoration: none;
+      font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px #111111;
+}
+
 .purchasebutton:active {
   background: #656565;
-  background-image: -webkit-linear-gradient(top, #497345, #375633);
-  background-image: -moz-linear-gradient(top, #497345, #375633);
-  background-image: -ms-linear-gradient(top, #497345, #375633);
-  background-image: -o-linear-gradient(top, #497345, #375633);
-  background-image: linear-gradient(to bottom, #497345, #375633);
+  background-image: -webkit-linear-gradient(top, #14410c, #26881d);
+  background-image: -moz-linear-gradient(top, #14410c, #26881d);
+    background-image: -ms-linear-gradient(top, #14410c, #26881d);
+  background-image: -o-linear-gradient(top, #14410c, #26881d);
+    background-image: linear-gradient(to bottom, #14410c, #26881d);
   text-decoration: none;
-  color: #fff;
+  
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    text-shadow: 0px 1px 0px #111111;
+    text-shadow: 0px -1px 0px #111111;
 }
 
-.purchasebutton a,
-.purchasebutton a:hover,
-.purchasebutton a:active {
-    color: #fff;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    text-shadow: 0px 1px 0px #111111;
+.purchasebutton a {
+	color: #fff;
 }
 
 .purchasebutton,.purchasebutton:hover,.purchasebutton a,.purchasebutton a:hover,.purchasebutton:active,.purchasebutton a:active {
