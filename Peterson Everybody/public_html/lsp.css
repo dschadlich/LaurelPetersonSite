@@ -86,7 +86,6 @@ img{
 #menu li a {
 	color:#000;
 	text-decoration:none;
-	background-color:#fff;
 	padding:44px 20px 42px;
 }
 
@@ -158,8 +157,18 @@ footer a {
 .panel {
 	box-shadow:0 0px 15px rgba(0,0,0,.35);
 	border-radius:2px;
-	padding: 5px 20px 5px 20px;
+	padding: 5px 20px 5px 20px ! important;
 	background-color:rgba(255,255,255,.85);
+        display: block ! important;
+  margin-bottom: 22px;
+}
+
+.right-mail-panel {
+	box-shadow:0 0px 15px rgba(0,0,0,.35);
+	border-radius:2px;
+	padding: 5px 20px 5px 20px ! important;
+	background-color:rgba(255,255,255,.85);
+        display: block;
   margin-bottom: 22px;
 }
 
@@ -228,12 +237,10 @@ form {
 
 #leftmail {
     display: none;
-    visibility: hidden;
 }
 
 #rightmail {
     display: block;
-    visibility: visible;
 }
 
 @media (max-width: 750px) {
@@ -305,16 +312,13 @@ form {
 
 	.mailform {
 		display: none;
-		visibility: hidden;
 	}
         #rightmail {
     display: none;
-    visibility: hidden;
 }
 
         #leftmail {
     display: block;
-    visibility: visible;
 }
 
 }
@@ -322,7 +326,6 @@ form {
 .full-width-img {
     width: 250px;
     min-width: 150px;
-    min-height: 150px;
     float: left;
     margin-right: 2rem;
     margin-top: 20px;
@@ -470,13 +473,15 @@ form {
 			width: 75%;
 			margin-left: 25%;
 		}
+  .full-width-img {
+    width: 15%;
+  }
 }
 
 /* twitter widget styles */
 .twitter-widget {
 	padding: 0px 1px 0px 0px;
 	opacity: .85;
-	min-
 }
 
 /* rightcol responsiveness */
