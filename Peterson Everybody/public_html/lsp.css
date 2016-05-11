@@ -725,3 +725,25 @@ form {
      width: 30px;
      margin-right: 5px;
 }
+
+.publication em {
+	font-style: normal;
+	display: block;
+	text-align: right;
+	height: 0px;
+}
+
+.publication .rightalign {
+	display: block;
+	text-align: right;
+}
+
+.publication .rightalignbutton {
+	float: right;
+}
+
+.rightalignp {
+	display: block;
+text-align: left;
+margin-top: 40px;
+}
