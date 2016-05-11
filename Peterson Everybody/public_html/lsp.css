@@ -524,8 +524,8 @@ form {
 .social-media-icon {
      background-size: 40px 40px;
      display:inline-block;
-     min-height: 40px;
-     min-width: 40px;
+     height: 40px;
+     width: 40px;
      margin-right: 7px;
 }
 
@@ -570,46 +570,49 @@ form {
 
 .poembutton {
   background: #656565;
-  background-image: -webkit-linear-gradient(top, #656565, #b4b4b4);
-  background-image: -moz-linear-gradient(top, #656565, #b4b4b4);
-  background-image: -ms-linear-gradient(top, #656565, #b4b4b4);
-  background-image: -o-linear-gradient(top, #656565, #b4b4b4);
-  background-image: linear-gradient(to bottom, #656565, #b4b4b4);
+  background-image: -webkit-linear-gradient(top, #e1e1e1, #bcbcbc);
+  background-image: -moz-linear-gradient(top, #e1e1e1, #bcbcbc);
+  background-image: -ms-linear-gradient(top, #e1e1e1, #bcbcbc);
+  background-image: -o-linear-gradient(top, #e1e1e1, #bcbcbc);
+  background-image: linear-gradient(to bottom, #e1e1e1, #bcbcbc);
   -webkit-border-radius: 2;
   -moz-border-radius: 2;
   border-radius: 2px;
-  text-shadow: 0px 1px 0px #111111;
-  color: #fff;
+  text-shadow: 0px 1px 0px #ffffff;
+  color: #000;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
   padding: 3px 16px 3px 16px;
-  border: solid black 1px;
+  border: solid #b2b2b2 1px;
   text-decoration: none;
 }
 
-.poembutton:hover,
+.poembutton:hover {
+  background: #656565;
+  background-image: -webkit-linear-gradient(top, #c9c9c9, #9f9f9f);
+  background-image: -moz-linear-gradient(top, #c9c9c9, #9f9f9f);
+  background-image: -ms-linear-gradient(top, #c9c9c9, #9f9f9f);
+  background-image: -o-linear-gradient(top, #c9c9c9, #9f9f9f);
+  background-image: linear-gradient(to bottom, #c9c9c9, #9f9f9f);
+    text-decoration: none;
+      font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px #fff;
+}
+
 .poembutton:active {
   background: #656565;
-  background-image: -webkit-linear-gradient(top, #656565, #b4b4b4);
-  background-image: -moz-linear-gradient(top, #656565, #b4b4b4);
-  background-image: -ms-linear-gradient(top, #656565, #b4b4b4);
-  background-image: -o-linear-gradient(top, #656565, #b4b4b4);
-  background-image: linear-gradient(to bottom, #656565, #b4b4b4);
+  background-image: -webkit-linear-gradient(top, #878787, #b2b2b2);
+  background-image: -moz-linear-gradient(top, #878787, #b2b2b2);
+  background-image: -ms-linear-gradient(top, #878787, #b2b2b2);
+    background-image: -o-linear-gradient(top, #878787, #b2b2b2);
+  background-image: linear-gradient(to bottom, #878787, #b2b2b2);
   text-decoration: none;
-  color: #fff;
+  
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    text-shadow: 0px 1px 0px #111111;
-}
-
-.poembutton a,
-.poembutton a:hover,
-.poembutton a:active {
-    color: #fff;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    text-shadow: 0px 1px 0px #111111;
+    text-shadow: 0px -1px 0px #fff;
 }
 
 .purchasebutton,.purchasebutton:hover,.purchasebutton a,.purchasebutton a:hover,.purchasebutton:active,.purchasebutton a:active {
@@ -705,4 +708,12 @@ form {
         footer {
 	        font-size: 12px;
         }
+}
+
+#tweets .social-media-icon {
+	background-size: 30px 30px;
+     display:inline-block;
+     height: 30px;
+     width: 30px;
+     margin-right: 5px;
 }
