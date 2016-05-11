@@ -5,10 +5,10 @@
             position: fixed;
             /* Stay in place */
             
-            z-index: 1;
+            z-index: 100;
             /* Sit on top */
             
-            padding-top:30vh;
+            
             /* Location of the box */
             
             left: 0;
@@ -17,9 +17,10 @@
             /* Full width */
             
             height: 72%;
+            margin-top: 20px;
             /* Full height */
             
-            overflow: auto;
+           
             /* Enable scroll if needed */
             
             background-color: rgb(0, 0, 0);
@@ -43,6 +44,8 @@
             animation-name: animatetop;
             animation-duration: 0.4s
         }
+
+
      
         
         .close {
@@ -77,10 +80,13 @@
             background:#222;
             color: white;
         }
-        .modal-body {
-            padding: 2px 16px;
-            display: table;
-            margin: auto;
+        .modal-txt {
+                white-space: pre-line;
+                text-align: center;
+                overflow: overlay;
+                height: 400px;
+
+            
         }
         .modal-footer {
             padding: 2px 16px;
@@ -152,6 +158,12 @@
     display: block;
 }
 .modal{
-    padding-top: 15vh;
+    padding-top: ;
 }
+  }
+
+
+
+  #poem1{
+    display:none;
   }
