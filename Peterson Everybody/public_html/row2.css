@@ -83,7 +83,7 @@
         .modal-txt {
                 white-space: pre-line;
                 text-align: center;
-                overflow: overlay;
+                overflow: auto;
                 height: 60vh;
 
             
