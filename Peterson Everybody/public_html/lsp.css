@@ -554,6 +554,28 @@ form {
    background-image : url(img/goodreadsicon.png);
 }
 
+.twitter-icon:hover{
+    background-image : url(img/twittericoncolor.png);
+}
+
+.facebook-icon:hover {
+        background-image : url(img/fbiconcolor.png);
+
+}
+.linkedin-icon:hover {
+   background-image : url(img/linkediniconcolor.png);
+
+}
+
+.amazon-icon:hover {
+   background-image : url(img/amazoniconcolor.png);
+
+}
+
+.goodreads-icon:hover {
+   background-image : url(img/goodreadsiconcolor.png);
+}
+
 
 .poembutton {
 	display:block;
