@@ -326,6 +326,9 @@ form {
     float: left;
     margin-right: 2rem;
     margin-top: 20px;
+    border-radius: 50%;
+      -webkit-shape-outside:circle();
+  shape-outside:circle();
 }
 .half-width-img {
 	width:50%;
