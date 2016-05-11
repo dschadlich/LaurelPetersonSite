@@ -329,6 +329,9 @@ form {
     float: left;
     margin-right: 2rem;
     margin-top: 20px;
+    border-radius: 50%;
+      -webkit-shape-outside:circle();
+  shape-outside:circle();
 }
 .half-width-img {
 	width:50%;
@@ -339,11 +342,11 @@ form {
 /*purchasebutton syles*/
 .purchasebutton {
   background: #656565;
-  background-image: -webkit-linear-gradient(top, #497345, #375633);
-  background-image: -moz-linear-gradient(top, #497345, #375633);
-  background-image: -ms-linear-gradient(top, #497345, #375633);
-  background-image: -o-linear-gradient(top, #497345, #375633);
-  background-image: linear-gradient(to bottom, #497345, #375633);
+  background-image: -webkit-linear-gradient(top, #35b429, #206c15);
+  background-image: -moz-linear-gradient(top, #35b429, #206c15);
+  background-image: -ms-linear-gradient(top, #35b429, #206c15);
+  background-image: -o-linear-gradient(top, #35b429, #206c15);
+  background-image: linear-gradient(to bottom, #35b429, #206c15);
   -webkit-border-radius: 2;
   -moz-border-radius: 2;
   border-radius: 2px;
@@ -353,32 +356,39 @@ form {
   font-weight: 400;
   font-size: 20px;
   padding: 3px 16px 3px 16px;
-  border: solid black 1px;
+  border: solid #125812 1px;
   text-decoration: none;
 }
 
-.purchasebutton:hover,
+.purchasebutton:hover {
+  background: #656565;
+  background-image: -webkit-linear-gradient(top, #2c9d22, #1a5511);
+  background-image: -moz-linear-gradient(top, #2c9d22, #1a5511);
+    background-image: -ms-linear-gradient(top, #2c9d22, #1a5511);
+  background-image: -o-linear-gradient(top, #2c9d22, #1a5511);
+    background-image: linear-gradient(to bottom, #2c9d22, #1a5511);
+  text-decoration: none;
+      font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px #111111;
+}
+
 .purchasebutton:active {
   background: #656565;
-  background-image: -webkit-linear-gradient(top, #497345, #375633);
-  background-image: -moz-linear-gradient(top, #497345, #375633);
-  background-image: -ms-linear-gradient(top, #497345, #375633);
-  background-image: -o-linear-gradient(top, #497345, #375633);
-  background-image: linear-gradient(to bottom, #497345, #375633);
+  background-image: -webkit-linear-gradient(top, #14410c, #26881d);
+  background-image: -moz-linear-gradient(top, #14410c, #26881d);
+    background-image: -ms-linear-gradient(top, #14410c, #26881d);
+  background-image: -o-linear-gradient(top, #14410c, #26881d);
+    background-image: linear-gradient(to bottom, #14410c, #26881d);
   text-decoration: none;
-  color: #fff;
+  
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    text-shadow: 0px 1px 0px #111111;
+    text-shadow: 0px -1px 0px #111111;
 }
 
-.purchasebutton a,
-.purchasebutton a:hover,
-.purchasebutton a:active {
-    color: #fff;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    text-shadow: 0px 1px 0px #111111;
+.purchasebutton a {
+	color: #fff;
 }
 
 .purchasebutton,.purchasebutton:hover,.purchasebutton a,.purchasebutton a:hover,.purchasebutton:active,.purchasebutton a:active {
@@ -426,91 +436,6 @@ form {
 }
 
 
-@media (max-width: 639px) {
-    	#menu {
-        	width: 100%;
-   	}
-
-    	#body {
-		width:420px;
-		font-size:14px;
-	}
-
-	#menu {
-		padding:12px 0 36px;
-	}
-        #circle {
-            width: 100px;
-            height: 100px;
-            z-index: 7;
-            position: fixed;
-            left: 0;
-            top: -25px;
-
-        }
-        #logo {
-            width: 100px;
-            height: 100px;
-            position: fixed;
-            left: 0;
-            top: -25px;
-            background-size: 87px 87px;
-            background-position: 5px 28px;
-        }
-
-	#menu li {
-		font-size:16px;
-	}
-
-	#menu li a {
-		padding:20px 10px 12px;
-	}
-
-	#menu li:nth-child(1) {
-		left: 90px;
-		width: 60px;
-	}
-
-        #menu li:nth-child(2) {
-		left: 47%;
-		width: 60px;
-	}
-
-        #menu li:nth-child(3) {
-		left: 64%;
-		width: 60px;
-	}
-
-	#menu li:nth-child(4) {
-		left: 81%;
-		width: 60px;
-	}
-
-	.book-side .cover {
-		min-width: 100px;
-	}
-
-	.book-side .purchasebutton {
-		min-width: 100px;
-		}
-
-		#colcontainer {
-			margin-top: 90px;
-		}
-        .publication .img-right {
-            float: left;
-            display: block;
-            margin-left: 11px;
-            margin-top: 11px;
-        }
-
-        .publication .img-left {
-            float: left;
-            display: block;
-            margin-right: 11px;
-            margin-top: 11px;
-        }
-}
 
 /* rightcol responsiveness */
 
@@ -607,8 +532,8 @@ form {
 .social-media-icon {
      background-size: 40px 40px;
      display:inline-block;
-     min-height: 40px;
-     min-width: 40px;
+     height: 40px;
+     width: 40px;
      margin-right: 7px;
 }
 
@@ -634,6 +559,28 @@ form {
    background-image : url(img/goodreadsicon.png);
 }
 
+.twitter-icon:hover{
+    background-image : url(img/twittericoncolor.png);
+}
+
+.facebook-icon:hover {
+        background-image : url(img/fbiconcolor.png);
+
+}
+.linkedin-icon:hover {
+   background-image : url(img/linkediniconcolor.png);
+
+}
+
+.amazon-icon:hover {
+   background-image : url(img/amazoniconcolor.png);
+
+}
+
+.goodreads-icon:hover {
+   background-image : url(img/goodreadsiconcolor.png);
+}
+
 
 .poembutton {
 	display:block;
@@ -653,48 +600,206 @@ form {
 
 .poembutton {
   background: #656565;
-  background-image: -webkit-linear-gradient(top, #656565, #b4b4b4);
-  background-image: -moz-linear-gradient(top, #656565, #b4b4b4);
-  background-image: -ms-linear-gradient(top, #656565, #b4b4b4);
-  background-image: -o-linear-gradient(top, #656565, #b4b4b4);
-  background-image: linear-gradient(to bottom, #656565, #b4b4b4);
+  background-image: -webkit-linear-gradient(top, #e1e1e1, #bcbcbc);
+  background-image: -moz-linear-gradient(top, #e1e1e1, #bcbcbc);
+  background-image: -ms-linear-gradient(top, #e1e1e1, #bcbcbc);
+  background-image: -o-linear-gradient(top, #e1e1e1, #bcbcbc);
+  background-image: linear-gradient(to bottom, #e1e1e1, #bcbcbc);
   -webkit-border-radius: 2;
   -moz-border-radius: 2;
   border-radius: 2px;
-  text-shadow: 0px 1px 0px #111111;
-  color: #fff;
+  text-shadow: 0px 1px 0px #ffffff;
+  color: #000;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
   padding: 3px 16px 3px 16px;
-  border: solid black 1px;
+  border: solid #b2b2b2 1px;
   text-decoration: none;
 }
 
-.poembutton:hover,
+.poembutton:hover {
+  background: #656565;
+  background-image: -webkit-linear-gradient(top, #c9c9c9, #9f9f9f);
+  background-image: -moz-linear-gradient(top, #c9c9c9, #9f9f9f);
+  background-image: -ms-linear-gradient(top, #c9c9c9, #9f9f9f);
+  background-image: -o-linear-gradient(top, #c9c9c9, #9f9f9f);
+  background-image: linear-gradient(to bottom, #c9c9c9, #9f9f9f);
+    text-decoration: none;
+      font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px #fff;
+}
+
 .poembutton:active {
   background: #656565;
-  background-image: -webkit-linear-gradient(top, #656565, #b4b4b4);
-  background-image: -moz-linear-gradient(top, #656565, #b4b4b4);
-  background-image: -ms-linear-gradient(top, #656565, #b4b4b4);
-  background-image: -o-linear-gradient(top, #656565, #b4b4b4);
-  background-image: linear-gradient(to bottom, #656565, #b4b4b4);
+  background-image: -webkit-linear-gradient(top, #878787, #b2b2b2);
+  background-image: -moz-linear-gradient(top, #878787, #b2b2b2);
+  background-image: -ms-linear-gradient(top, #878787, #b2b2b2);
+    background-image: -o-linear-gradient(top, #878787, #b2b2b2);
+  background-image: linear-gradient(to bottom, #878787, #b2b2b2);
   text-decoration: none;
-  color: #fff;
+  
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    text-shadow: 0px 1px 0px #111111;
-}
-
-.poembutton a,
-.poembutton a:hover,
-.poembutton a:active {
-    color: #fff;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    text-shadow: 0px 1px 0px #111111;
+    text-shadow: 0px -1px 0px #fff;
 }
 
 .purchasebutton,.purchasebutton:hover,.purchasebutton a,.purchasebutton a:hover,.purchasebutton:active,.purchasebutton a:active {
 	cursor:pointer;
+}
+
+
+
+
+#tweets .social-media-icon {
+	background-size: 30px 30px;
+     display:inline-block;
+     height: 30px;
+     width: 30px;
+     margin-right: 5px;
+}
+
+.publication em {
+	font-style: normal;
+	display: block;
+	text-align: right;
+	height: 0px;
+}
+
+.publication .rightalign {
+	display: block;
+	text-align: right;
+}
+
+.publication .rightalignbutton {
+	float: right;
+}
+
+.rightalignp {
+	display: block;
+text-align: left;
+margin-top: 40px;
+}
+
+@media (max-width: 639px) {
+    	#menu {
+        	width: 100%;
+   	}
+
+    	#body {
+		width:420px;
+		font-size:14px;
+	}
+
+	#menu {
+		padding:12px 0 36px;
+	}
+        #circle {
+            width: 100px;
+            height: 100px;
+            z-index: 7;
+            position: fixed;
+            left: 0;
+            top: -25px;
+
+        }
+        #logo {
+            width: 100px;
+            height: 100px;
+            position: fixed;
+            left: 0;
+            top: -25px;
+            background-size: 87px 87px;
+            background-position: 5px 28px;
+        }
+
+	#menu li {
+		font-size:16px;
+	}
+
+	#menu li a {
+		padding:20px 10px 12px;
+	}
+
+	#menu li:nth-child(1) {
+		left: 30%;
+		width: 60px;
+	}
+
+        #menu li:nth-child(2) {
+		left: 47%;
+		width: 60px;
+	}
+
+        #menu li:nth-child(3) {
+		left: 64%;
+		width: 60px;
+	}
+
+	#menu li:nth-child(4) {
+		left: 81%;
+		width: 60px;
+	}
+
+	.book-side .cover {
+		min-width: 100px;
+	}
+
+	.book-side .purchasebutton {
+		min-width: 100px;
+		}
+
+		#colcontainer {
+			margin-top: 90px;
+		}
+        .publication .img-right {
+            float: left;
+            display: block;
+            margin-left: 0px;
+            margin-top: 11px;
+            margin-right: 11px;
+        }
+
+        .publication .img-left {
+            float: left;
+            display: block;
+            margin-right: 11px;
+            margin-top: 11px;
+        }
+        
+        footer {
+	        font-size: 12px;
+        }
+        
+        .purchasebutton a {
+	        font-size: 16px;
+        }
+        
+        .purchasebutton {
+	        padding-top: 0px;
+        }
+        
+        
+        
+        .publication em {
+	font-style: normal;
+	display: block;
+	text-align: left;
+}
+
+.publication .rightalign {
+	display: block;
+	text-align: left;
+}
+
+.publication .rightalignbutton {
+	float: left;
+}
+
+.rightalignp {
+	display: block;
+text-align: left;
+margin-top: 40px;
+}
 }

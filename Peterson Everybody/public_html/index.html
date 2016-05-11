@@ -1,26 +1,22 @@
-
 <!DOCTYPE html>
 
 <html>
 <head>
-  <title>Laurel S. Peterson</title>
-  <meta charset="UTF-8">
-  <!-- <meta name="viewport" content="width=750, user-scalable=yes"> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laurel S. Peterson</title>
+    <meta charset="UTF-8"><!-- <meta name="viewport" content="width=750, user-scalable=yes"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link rel="stylesheet" href="row2.css" type="text/css">
+    <link rel="stylesheet" href="lsp.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" type="text/javascript">
+</script>
+    <script type="text/javascript" src="script.js">
+</script>
+    <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,300italic,300' rel='stylesheet' type='text/css'><!-- for twitter intergation -->
 
-  <link rel="stylesheet" href="normalize.css" type="text/css">
-   <link rel="stylesheet" href="row2.css" type="text/css">
-  <link rel="stylesheet" href="lsp.css" type="text/css">
-
-
-  <script src="https://code.jquery.com/jquery-2.2.3.min.js" type="text/javascript"></script>
-  <script type="text/javascript" src="script.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,300italic,300' rel='stylesheet' type='text/css'>
-
-  <!-- for twitter intergation -->
-  <script>
-  ! function(d, s, id) {
+    <script type="text/javascript">
+! function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0],
     p = /^http:/.test(d.location) ? 'http' : 'https';
     if (!d.getElementById(id)) {
@@ -29,46 +25,33 @@
       js.src = p + "://platform.twitter.com/widgets.js";
       fjs.parentNode.insertBefore(js, fjs);
     }
-  }(document, "script", "twitter-wjs");
-  </script>
-  <!-- end of twitter intergation code -->
-
+    }(document, "script", "twitter-wjs");
+    </script><!-- end of twitter intergation code -->
 </head>
 
 <body>
+    <div id="backgroundDiv"></div>
 
-  <div id="backgroundDiv" ></div>
+    <ul id="menu">
+        <li><a href="#works" onclick="setTimeout(scroll, 50)">works</a></li>
 
-  <ul id="menu">
+        <li><a href="#press" onclick="setTimeout(scroll, 50)">press</a></li>
 
-    <li><a href="#works" onclick="setTimeout(scroll, 50)">works</a></li>
+        <li><a href="#about" onclick="setTimeout(scroll, 50)">about</a></li>
 
-    <li><a href="#press" onclick="setTimeout(scroll, 50)">press</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
 
-    <li><a href="#about" onclick="setTimeout(scroll, 50)">about</a></li>
 
-    <li><a href="#contact">contact</a></li>
+    <a href="#colcontainer" onclick="setTimeout(scroll, 50)"><div id="logo"></div></a>
 
-  </ul>
 
-  <!-- this logo works, don't change anything -->
-  <div id="logo"></div>
+    <div id="circle"></div>
 
-  <div id="circle"></div>
+    <div id="colcontainer" class="">
 
-  <div id="colcontainer" class="">
+        <div class="rightcol ">
 
-    <div class="rightcol ">
-      <div class="panel ">
-
-        <div class="socialMedia">
-            <a class="facebook-icon social-media-icon" title="Facebook" href="https://www.facebook.com/LaurelPetersonWriter/" target="blank"></a>
-            <a class="twitter-icon social-media-icon" title="Twitter" href="https://twitter.com/laurelwriter49" target="blank"></a>
-            <a class="linkedin-icon social-media-icon" title="Linkedin" href="https://www.linkedin.com/in/laurel-peterson-3819a33" target="blank"></a>
-            <a class="amazon-icon social-media-icon" title="Amazon" href="http://www.amazon.com/Laurel-S.-Peterson/e/B0164H3IDS" target="blank"></a>
-            <a class="goodreads-icon social-media-icon" title="Goodreads" href="http://www.goodreads.com/author/show/3414564.Laurel_S_Peterson" target="blank"></a>
-        </div>
-    </div>
       <div class="panel book-side">
         <img class="cover" src="img/shadowNotesFinal.jpg" alt="new book">
         <button class="purchasebutton" title="Shadow Notes" type="button">
@@ -98,272 +81,342 @@
 
     </div>
 
-    <div class="leftcol">
+        <div class="leftcol ">
+            <div class="panel twitter-widget icons-top" id="tweets">
+                <h2 class="">Latest Updates</h2>
+                <hr>
 
-      <div class="panel twitter-widget icons-top" id="tweets">
-          <h2 class="">Tweets</h2>
-          <hr>
-        <a class="twitter-timeline" data-href="https://twitter.com/laurelwriter49" data-widget-id="726792824771993604" data-chrome="noheader nofooter noscrollbar" width="800" height="300">Tweets by @laurelwriter49</a>
-       </div>
+                <div class="twitter-wrapper">
+                    <a class="twitter-timeline" data-href="https://twitter.com/laurelwriter49" data-widget-id="726792824771993604" data-chrome="noheader nofooter noscrollbar" width="800" height="350">Tweets by @laurelwriter49</a>
+                </div>
+                <a class="facebook-icon social-media-icon" title="Facebook" href="https://www.facebook.com/LaurelPetersonWriter/" target="blank"></a> <a class="twitter-icon social-media-icon" title="Twitter" href="https://twitter.com/laurelwriter49" target="blank"></a> <a class="linkedin-icon social-media-icon" title="Linkedin" href="https://www.linkedin.com/in/laurel-peterson-3819a33" target="blank"></a> <a class="amazon-icon social-media-icon" title="Amazon" href="http://www.amazon.com/Laurel-S.-Peterson/e/B0164H3IDS" target="blank"></a> <a class="goodreads-icon social-media-icon" title="Goodreads" href="http://www.goodreads.com/author/show/3414564.Laurel_S_Peterson" target="blank"></a>
 
-    	 <div id="press" class="panel">
-        <h2 class="">Press</h2>
-        <hr>
-        <p class="quote">"During her yearlong tenure as Norwalk’s first poet laureate, Laurel Peterson will work to disseminate poetry in Norwalk’s public sphere. Her first project, a selection of poems to be displayed on Norwalk busses, will go on display this month." &ndash;<a href="http://thehour.ct.newsmemory.com/publink.php?shareid=1624dbee5#">The Hour</a></p>
+            </div>
 
-        <p class="quote">"Laurel Peterson, an author and poet, is Norwalk’s first poet laureate — one of only a handful in the state. For the next year, she will work to foster a love and appreciation of poetry among the city's residents and visitors" &ndash;<a href="http://www.westport-news.com/living/article/For-Norwalk-s-poet-laureate-the-city-is-her-7294670.php">Westport News</a></p>
-      </div>
+            <div class="panel">
+                <div id="works">
+                    <h2>Works</h2>
+                    <hr>
 
-      <div  class="panel">
+                    <div class=" publication">
+                        <img class=" img-left" src="img/shadowNotesFinal.jpg" alt="">
 
-        <div id="works">
-          <h2>Works</h2>
-          <hr>
-          <div class="TTTTTTT publication">
-            <img class="TTTTTTT img-left" src="img/shadowNotesFinal.jpg" alt=""/>
-            <h3>Shadow Notes</h3>
-            Mystery<br>
-            Barking Rain Press<br>
-            2016<br>
-            <button class="purchasebutton" title="Shadow Notes" type="button">
-          <a href="http://barkingrainpress.org/shadow-notes/">Purchase</a>
-            </button><br>
-           <span class="quote"> Clara Montague didn't even want to come home. Her mother, Constance Montague never liked her--or listened to her--but now they have to get along or they will both end up in jail or dead.
-          </span>
+                        <h3>Shadow Notes</h3>Mystery<br>
+                        Barking Rain Press<br>
+                        2016<br>
+                        <button class="purchasebutton" title="Shadow Notes" type="button"><a href="http://barkingrainpress.org/shadow-notes/">Purchase</a></button><br>
+                        <span class="quote">Clara Montague didn't even want to come home. Her mother, Constance Montague never liked her--or listened to her--but now they have to get along or they will both end up in jail or dead.</span>
+                    </div>
+                    <hr>
+
+                    <div class=" publication">
+                        <img class=" img-right" src="img/music-sounds-cover200.jpg" alt="">
+
+                        <h3 class="rightalign">That's The Way The Music Sounds</h3><em>Poetry</em><br>
+                        <em>Finishing Line Press</em><br>
+                        <em>2008</em><br>
+                        <button type="button" title="That's The Way The Music Sounds" class="purchasebutton rightalignbutton"><a href="https://finishinglinepress.com/product_info.php?products_id=640" target="_blank">Purchase</a></button><br>
+                        <span class="quote rightalignp">“Laurel Peterson stands at the ‘edge of the world’ not far from a casually harsh God who enjoys ‘golf afternoons’ as all hell is breaking loose around Him. She puts up with it by writing rings around him, sledgehammer poems wrapped in velvet, poems of confession and affirmation. That’s the Way the Music Sounds is an eclectic array of poems that are fashioned from flesh and reach the ear in quite a new voice to contemporary poetry, a voice as true and lasting as bone.” –Dan Masterson</span>
+                    </div>
+                    <hr>
+
+                    <div class=" publication">
+                        <img class=" img-left" src="img/reinterpretations-cover.jpg" alt="">
+
+                        <h3>(Re)Interpretations: The Shapes of Justice in Women’s Experience</h3>Sociology<br>
+                        Cambridge Scholars Publishing<br>
+                        2009<br>
+                        <button type="button" title="(Re)Interpretations: The Shapes of Justice in Women’s Experience" class="purchasebutton"><a href="https://finishinglinepress.com/product_info.php?products_id=640">Purchase</a></button><br>
+                        <span class="quote">“Patriarchal institutions govern all aspects of womenâs lives: their minds, their bodies, and their souls. Additionally, they govern the ways in which women are perceived by others and the ways in which women perceive themselves. (Re) Interpretations: The Shapes of Justice in Women's Experience, is a collection of essays on language, religion, war, sex trafficking, and medicine the patriarchal structures that form the basis of western society and, thus, are in many ways inherently unjust.”</span>
+                    </div>
+                </div>
+                <hr>
+                <!--poetry section-->
+
+                <div id="poem">
+                    <h2>Poems</h2>
+
+                    <div style="text-align:center; margin-top:5px;">
+                        by Laurel Peterson
+                    </div>
+
+                    <div class="poem_wrapper col-xs-12">
+                        <div class="col-xs-4">
+                            <h4 class="text_center">87 Percent Chance</h4>
+                            <img class="col-xs-12 poem_image" src="img/87percentchance.jpg" alt=""> 
+                            <button type="button" id="myBtn" class="poembutton modalbtn">Read</button>
+                        </div>
+
+                        <div class="col-xs-4">
+                            <h4 class="text_center">What We Are</h4>
+                            <img class="col-xs-12 poem_image" src="img/whatweare.jpg" alt=""> 
+                            <button type="button" id="myBtn2" class="poembutton modalbtn">Read</button>
+                        </div>
+
+                        <div class="col-xs-4">
+                            <h4 class="text_center">PocketWatch</h4>
+                            <img class="col-xs-12 poem_image" src="img/pocketwatch.jpg" alt=""> 
+                            <button type="button" id="myBtn3" class="poembutton modalbtn">Read</button>
+                        </div>
+                    </div>
+                </div><!--poetry end-->
+            </div><!--press section-->
+
+            <div id="press" class="panel">
+                <h2 class="">Press</h2>
+                <hr>
+
+                <p class="quote">"During her yearlong tenure as Norwalk’s first poet laureate, Laurel Peterson will work to disseminate poetry in Norwalk’s public sphere. Her first project, a selection of poems to be displayed on Norwalk busses, will go on display this month." &ndash;<a href="http://thehour.ct.newsmemory.com/publink.php?shareid=1624dbee5#">The Hour</a></p>
+
+                <p class="quote">"Laurel Peterson, an author and poet, is Norwalk’s first poet laureate — one of only a handful in the state. For the next year, she will work to foster a love and appreciation of poetry among the city's residents and visitors" &ndash;<a href="http://www.westport-news.com/living/article/For-Norwalk-s-poet-laureate-the-city-is-her-7294670.php">Westport News</a></p>
+            </div>
+          <div id="press" class="panel">
+
+            <h2 class="">About Me</h2>
+            <hr>
+            <img class="full-width-img" src="Laurel_Head_Square.jpg">
+            <input type="checkbox" class="read-more-state" id="post-1" />
+            <p class="read-more-wrap">Laurel S. Peterson is a community college English professor who has
+              written a column for Gannett Suburban Newspapers on local history
+              and served as editor of the literary journal Inkwell. Her poetry has
+              been published in The Atlanta Review, The Distillery, Ekphrastic.net,
+              Poet Lore, The Rio Grande Review, The Texas Review, Thin Air, Verse-Virtual,
+              Yankee and others. In 2006, she was a finalist for the John Ciardi
+              Prize in Poetry for her manuscript Mud Never Forgets. She has two poetry
+              chapbooks, That's the Way the Music Sounds (Finishing Line Press, 2009),
+              and Talking to the Mirror from The Last Automat Press (2010).
+              She is the co-editor of (Re)Interpretations: The Shapes of Justice
+              in Women's Experience (Cambridge Scholars Publishing, 2009).
+              Her mystery novel, Shadow Notes, will be released by Barking Rain Press in March 2016.
+              <span class="read-more-target">
+                One eighth grade afternoon, the bully on the bus was worse than usual. I came home and wrote a story of revenge in my journal. What satisfaction to leave her bleeding (on paper, of course!) on the playground. Thus was born my career as a mystery writer.
+                In college, I majored in psychology, fascinated by what motivates us (or doesn’t). Why did that girl down the hall only write notes to her mother and rarely talk to her? Why did one kid in a family act like a goody two-shoes, while an older brother or sister did drugs and flunked out? Why was the rich girl with all the family connections bulimic? Why did people attend a religious school only to flout all its rules?
+                After college, I tested the waters in advertising, catering, retail, and sales, salting away character details in my journals, and in lousy short stories. Then, I did an MFA and entered the world of academic politics, where I currently reside, writing poetry and mysteries, and grading papers.</span>
+              </p>
+              <label for="post-1" class="read-more-trigger"></label>            </div>
+
+            <div id="leftmail" class="panel mailform">
+                <form action="MAILTO:laurelpeterson@att.net" method="post" enctype="text/plain">
+                    <strong>Send me a message!</strong><br>
+                    <br>
+                    <input type="text" name="name" placeholder="name" class="mailinputs namefield"><br>
+                    <input type="text" name="mail" placeholder="email address" class="mailinputs mailfield"><br>
+                    <input type="text" name="comment" placeholder="enter message here" size="50" class="mailinputs commentfield"><br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+
         </div>
+    </div>
 
+    <!-- The Modal -->
 
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">×</span>
+                <h2 style="text-align:center;">87 PERCENT CHANCE</h2>
+            </div>
+            <div class="modal-body">
+                <p style="white-space:pre-line; text-align:left;">  
+                    Total mastectomy. Hysterectomy.
+                    Hyster--hysterical to trade sexuality for life?
+                    This one mutates into ovarian.
 
-          <hr>
-           <div class="TTTTTTT publication">
-            <img class="TTTTTTT img-right" src="img/music-sounds-cover200.jpg" alt=""/>
-            <h3>That's The Way The Music Sounds</h3>
-            Poetry<br>
-            Finishing Line Press <br>
-            2008<br>
-            <button type="button" title="That's The Way The Music Sounds" class="purchasebutton"><a href="https://finishinglinepress.com/product_info.php?products_id=640" target="_blank">Purchase</a></button>
-            <br>
-            <span class="quote">“Laurel Peterson stands at the ‘edge of the world’ not far from a casually harsh God who enjoys ‘golf afternoons’ as all hell is breaking loose around Him. She puts up with it by writing rings around him, sledgehammer poems wrapped in velvet, poems of confession and affirmation. That’s the Way the Music Sounds is an eclectic array of poems that are fashioned from flesh and reach the ear in quite a new voice to contemporary poetry, a voice as true and lasting as bone.” –Dan Masterson</span>
-          </div>
+                    Another friend, only one attacked,
+                    took them both.
+                    No reconstruction.
+                    Baggie sweaters, loose blouses,
+                    says so little difference
+                    now and before.
+                    But the scars?
+                    What does it mean
+                    to look in the mirror?
+                    Breastless.
+                    Breathless.
+                    Soul in the breath.
+                    Sexuality in the soul.
+                    Sexuality in the breath.
+                    Breath in the breast.
+                    Can one breathe without them?
+                    Finally, only, live in the mind,
+                    abandon the body?
 
+                    Mine are small.
+                    Only one aunt died,
+                    at 87.
+                    It’s that or a heart attack,
+                    my gynecologist
+                    flipped off.
+                    No children, I.
+                    Not that loss.
+                    Even diminutive,
+                    I would still wonder
+                    before the knife
+                    what they meant.
 
-
-          <hr>
-
-           <div class="TTTTTTT publication">
-            <img class="TTTTTTT img-left" src="img/reinterpretations-cover.jpg" alt=""/>
-            <h3>(Re)Interpretations: The Shapes of Justice in Women’s Experience</h3>
-            Sociology<br>
-            Cambridge Scholars Publishing<br>
-            2009<br>
-            <button type="button"  title="(Re)Interpretations: The Shapes of Justice in Women’s Experience" class="purchasebutton"><a href="https://finishinglinepress.com/product_info.php?products_id=640">Purchase</a></button>
-            <br>
-            <span class="quote">“Patriarchal institutions govern all aspects of womenâs lives: their minds, their bodies, and their souls. Additionally, they govern the ways in which women are perceived by others and the ways in which women perceive themselves. (Re) Interpretations: The Shapes of Justice in Women's Experience, is a collection of essays on language, religion, war, sex trafficking, and medicine the patriarchal structures that form the basis of western society and, thus, are in many ways inherently unjust.”</span>
-          </div>
-
-        </div>
-
-         <hr>
-
-      </div>
-
-      <div  class="panel">
-         <!--poetry section-->
-        <div id="poem">
-          <h2>Poems</h2>
-          <div style="text-align:center; margin-top:5px;">by Laurel Peterson</div>
-            <div class="poem_wrapper col-xs-12">
-              <div class="col-xs-4">
-                  <h4 class="text_center">87 Percent Chance</h4>
-                  <img class="col-xs-12 poem_image" src="img/87percentchance.jpg" alt=""/>
-                  <button type="button" id="myBtn" class="poembutton modalbtn">Read</button>
-               </div>
-               <div class="col-xs-4">
-                  <h4 class="text_center">What We Are</h4>
-                  <img class="col-xs-12 poem_image" src="img/whatweare.jpg" alt=""/>
-                  <button type="button" id="myBtn" class="poembutton modalbtn">Read</button>
-               </div>
-                <div class="col-xs-4">
-                   <h4 class="text_center">PocketWatch</h4>
-                  <img class="col-xs-12 poem_image" src="img/pocketwatch.jpg" alt=""/>
-                     <button type="button" id="myBtn" class="poembutton modalbtn">Read</button>
-               </div>
+                    In front of the mirror,
+                    I extend down the corners of my eyes,
+                    stretch out the edges of my nose,
+                    flatten my lips.
+                    Just a little
+                    makes me someone else.</p>
+            </div>
+            <div class="modal-footer">
+                <h3 style="text-align:center;">Published SLAB, 2008</h3><span class="close2">×</span>
             </div>
         </div>
-           <!--poetry end-->
-      </div>
-
-        <div id="about" class="panel">
-        <h2 class="">About Me</h2>
-        <hr>
-        <img class="full-width-img" src="Laurel_Head_Square.jpg">
-        <input type="checkbox" class="read-more-state" id="post-1" />
-        <p class="read-more-wrap">Laurel S. Peterson is a community college English professor who has
-          written a column for Gannett Suburban Newspapers on local history
-          and served as editor of the literary journal Inkwell. Her poetry has
-          been published in The Atlanta Review, The Distillery, Ekphrastic.net,
-          Poet Lore, The Rio Grande Review, The Texas Review, Thin Air, Verse-Virtual,
-          Yankee and others. In 2006, she was a finalist for the John Ciardi
-          Prize in Poetry for her manuscript Mud Never Forgets. She has two poetry
-          chapbooks, That's the Way the Music Sounds (Finishing Line Press, 2009),
-          and Talking to the Mirror from The Last Automat Press (2010).
-          She is the co-editor of (Re)Interpretations: The Shapes of Justice
-          in Women's Experience (Cambridge Scholars Publishing, 2009).
-          Her mystery novel, Shadow Notes, will be released by Barking Rain Press in March 2016.
-          <span class="read-more-target">
-            One eighth grade afternoon, the bully on the bus was worse than usual. I came home and wrote a story of revenge in my journal. What satisfaction to leave her bleeding (on paper, of course!) on the playground. Thus was born my career as a mystery writer.
-            In college, I majored in psychology, fascinated by what motivates us (or doesn’t). Why did that girl down the hall only write notes to her mother and rarely talk to her? Why did one kid in a family act like a goody two-shoes, while an older brother or sister did drugs and flunked out? Why was the rich girl with all the family connections bulimic? Why did people attend a religious school only to flout all its rules?
-            After college, I tested the waters in advertising, catering, retail, and sales, salting away character details in my journals, and in lousy short stories. Then, I did an MFA and entered the world of academic politics, where I currently reside, writing poetry and mysteries, and grading papers.</span>
-          </p>
-          <label for="post-1" class="read-more-trigger"></label>
-        </div>
-
-
-
-      <!-- <div id="contact" class="panel">
-      <ul>
-      <li><a href="https://twitter.com/laurelwriter49">Twitter</a></li>
-
-      <li><a href="https://www.linkedin.com/in/laurel-peterson-3819a33">LinkedIn</a></li>
-
-      <li><a href="https://finishinglinepress.com/product_info.php?products_id=640">Finishing Line Press</a></li>
-
-      <li><a href="http://www.futurecycle.org/index.php/en/catalog/by-author/item/406-laurel-peterson">FutureCycle Press</a></li>
-
-      <li><a href="http://barkingrainpress.org/">Barking Rain Press</a></li>
-
-      <li><a href="http://www.amazon.com/Laurel-S.-Peterson/e/B0164H3IDS">Amazon</a></li>
-
-      <li><a href="http://www.goodreads.com/author/show/3414564.Laurel_S_Peterson">Good Reads</a></li>
-    </ul>
-
-  </div> -->
-
-<div id="leftmail" class="panel mailform">
-        <form action="MAILTO:laurelpeterson@att.net" method="post" enctype="text/plain">
-          <strong>Send me a message!</strong><br>
-          <br>
-          <input type="text" name="name" placeholder="name" class="mailinputs namefield"><br>
-          <input type="text" name="mail" placeholder="email address" class="mailinputs mailfield"><br>
-          <input type="text" name="comment" placeholder="enter message here" size="50" class="mailinputs commentfield"><br>
-          <input type="submit" value="Send">
-        </form>
-      </div>
-
-</div>
-</div>
-
-<footer id="contact">
-  <a class="facebook-icon social-media-icon" title="Facebook" href="https://www.facebook.com/LaurelPetersonWriter/" target="blank"></a>
-  <a class="twitter-icon social-media-icon" title="Tweeter" href="https://twitter.com/laurelwriter49" target="blank"></a>
-  <a class="linkedin-icon social-media-icon" title="Linkedin" href="https://www.linkedin.com/in/laurel-peterson-3819a33" target="blank"></a>
-  <a class="amazon-icon social-media-icon" title="Amazon" href="http://www.amazon.com/Laurel-S.-Peterson/e/B0164H3IDS" target="blank"></a>
-  <a class="goodreads-icon social-media-icon" title="Goodreads" href="http://www.goodreads.com/author/show/3414564.Laurel_S_Peterson" target="blank"></a>
-
-  <br>
-  Laurel S. Peterson | NCC Web Dev 252 | Copyright 2016
-</footer>
- <!-- The Modal -->
-    <div id="myModal" class="modal">
-      <!-- Modal content -->
-      <div class="modal-content">
-        <div class="modal-header">
-          <span class="close">×</span>
-              <h2 style="text-align:center;">87 PERCENT CHANCE</h2>
+    </div>
+    <div id="myModal2" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">×</span>
+                <h2 style="text-align:center;">WHAT WE ARE</h2>
             </div>
             <div class="modal-body">
                 <p style="white-space:pre-line; text-align:left;">
-                Total mastectomy. Hysterectomy.
-                Hyster--hysterical to trade sexuality for life?
-                This one mutates into ovarian.
+                    It’s like pulling the dry skin off lips,
+                    irresistible until you taste blood,
+                    and even then,
+                    one last pull and the last
+                    translucent slip is free.
 
-                Another friend, only one attacked,
-                took them both.
-                No reconstruction.
-                Baggie sweaters, loose blouses,
-                says so little difference
-                now and before.
-                But the scars?
-                What does it mean
-                to look in the mirror?
-                Breastless.
-                Breathless.
-                Soul in the breath.
-                Sexuality in the soul.
-                Sexuality in the breath.
-                Breath in the breast.
-                Can one breathe without them?
-                Finally, only, live in the mind,
-                abandon the body?
+                    The blood rises, nerve endings
+                    tickling the air like
+                    exposed wires.
 
-                Mine are small.
-                Only one aunt died,
-                at 87.
-                It’s that or a heart attack,
-                my gynecologist
-                flipped off.
-                No children, I.
-                Not that loss.
-                Even diminutive,
-                I would still wonder
-                before the knife
-                what they meant.
+                    More and more, this is how I feel
+                    in our space.
+                    All that’s dead we’re peeling back,
+                    where we can,
+                    the layers of ex-husband,
+                    ex-wife, parents,
+                    the word “sheep” or “click”
+                    or “pie,” perhaps—that brings
+                    another word cracked
+                    like a leather belt,
+                    like a branch in a blizzard.
 
-                In front of the mirror,
-                I extend down the corners of my eyes,
-                stretch out the edges of my nose,
-                flatten my lips.
-                Just a little
-                makes me someone else.
-
-              </p>
-
+                    We try, but then we pull back,
+                    let the scar form, that
+                    toughened bit of leather
+                    that next time will take a knife,
+                    more than plucking at least.
+                </p>
             </div>
             <div class="modal-footer">
-                <h3 style="text-align:center;">Published SLAB, 2008</h3>
+                <h3 style="text-align:center;">Published Gin Bender Poetry Review, 2006</h3>
                 <span class="close2">×</span>
             </div>
         </div>
 
     </div>
+    <div id="myModal3" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">×</span>
+                <h2 style="text-align:center;">POCKETWATCH, c. 1905</h2>
+            </div>
+            <div class="modal-body">
+                <p style="white-space:pre-line; text-align:left;">
+                    Round, etched rose gold,
+                    too heavy for any modern
+                    Tawainese-sewn pocket,
+                    your gift weights my palm,
+                    a drill-punched circle of heavy heart,
+                    ticking just slower than time.
 
-        <script>
+                    It arrived after the towers collapsed
+                    and my lover’s wife had died
+                    and I had won him
+                    in a terrible lottery
+                    that left me holding the ticket,
+                    stunned and silent and so afraid
+                    that time had already run through my illicit
+                    fingers, slippery, gelatinous.
+                    Could I lose him twice
+                    to grief?
 
-        /*
-        var timer = setInterval(random, 2000);
+                    You watch across the reflective mirage of distance,
+                    wondering, warm like the heavy inevitable tomorrow,
+                    like the parentheses I know
+                    I’ll find under my pillow
+                    when I’m changing the sheets,
+                    the future I won
+                    and can never possess.
 
-        function random() {
-           randomnum= Math.floor(Math.random() *3) + 1;
-           console.log(randomnum);
-           id="p"+randomnum
-            console.log(id);
-            document.getElementById(id);
-            $("#"+id).toggleClass("custom");
+                    My shameful inadequacy to love sufficiently
+                    slopes away in pathetic disorder:
+                    a mountainside littered
+                    with glass and gravel.
 
-
-        }*/
-        // Get the modal
+                    The watch ticks—
+                    that’s my life passing.
+                    What do I do with my longing?
+                    Its impractical desires bend
+                    in all directions at once,
+                    a sparkler fizzling in the night air.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <h3 style="text-align:center;">Published The Texas Review, 2004</h3>
+                <span class="close2">×</span>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+      // Get the modal
         var modal = document.getElementById('myModal');
-
+        var modal2 = document.getElementById('myModal2');
+        var modal3 = document.getElementById('myModal3');
         // Get the button that opens the modal
         var btn = document.getElementById("myBtn");
-
+        var btn2 = document.getElementById("myBtn2");
+        var btn3 = document.getElementById("myBtn3");
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
         var span2 = document.getElementsByClassName("close2")[0];
-
-
+        var span3 = document.getElementsByClassName("close")[1];
+        var span4 = document.getElementsByClassName("close2")[1];
+        var span5 = document.getElementsByClassName("close")[2];
+        var span6 = document.getElementsByClassName("close2")[2];
         // When the user clicks the button, open the modal
         btn.onclick = function() {
             modal.style.display = "block";
+            id = modal.id;
+            console.log(id);
         }
-
+        btn2.onclick = function() {
+            modal2.style.display = "block";
+            id = modal2.id;
+            console.log(id);
+        }
+        btn3.onclick = function() {
+            modal3.style.display = "block";
+            id = modal3.id;
+            console.log(id);
+        }
         // When the user clicks on <span> (x), close the modal
         span.onclick = function() {
-            modal.style.display = "none";
+            document.getElementById(id).style.display = "none";
         }
         span2.onclick = function() {
-            modal.style.display = "none";
+            document.getElementById(id).style.display = "none";
+        }
+        span3.onclick = function() {
+            document.getElementById(id).style.display = "none";
+        }
+        span4.onclick = function() {
+            document.getElementById(id).style.display = "none";
+        }
+        span5.onclick = function() {
+            document.getElementById(id).style.display = "none";
+        }
+        span6.onclick = function() {
+            document.getElementById(id).style.display = "none";
         }
 
 
@@ -374,6 +427,9 @@
             }
         }
 
-        </script>
+    </script>
+
+    <footer><a class="facebook-icon social-media-icon" title="Facebook" href="https://www.facebook.com/LaurelPetersonWriter/" target="blank"></a> <a class="twitter-icon social-media-icon" title="Tweeter" href="https://twitter.com/laurelwriter49" target="blank"></a> <a class="linkedin-icon social-media-icon" title="Linkedin" href="https://www.linkedin.com/in/laurel-peterson-3819a33" target="blank"></a> <a class="amazon-icon social-media-icon" title="Amazon" href="http://www.amazon.com/Laurel-S.-Peterson/e/B0164H3IDS" target="blank"></a> <a class="goodreads-icon social-media-icon" title="Goodreads" href="http://www.goodreads.com/author/show/3414564.Laurel_S_Peterson" target="blank"></a><br>
+    Laurel S. Peterson | NCC Web Dev 252 | Copyright 2016</footer>
 </body>
 </html>
