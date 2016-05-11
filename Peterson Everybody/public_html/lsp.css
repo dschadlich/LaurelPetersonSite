@@ -163,6 +163,15 @@ footer a {
   margin-bottom: 22px;
 }
 
+.right-mail-panel {
+	box-shadow:0 0px 15px rgba(0,0,0,.35);
+	border-radius:2px;
+	padding: 5px 20px 5px 20px ! important;
+	background-color:rgba(255,255,255,.85);
+        display: block;
+  margin-bottom: 22px;
+}
+
 .icons-top {
 	display: inline-block;
 	text-align: right;
@@ -228,12 +237,10 @@ form {
 
 #leftmail {
     display: none;
-    visibility: hidden;
 }
 
 #rightmail {
     display: block;
-    visibility: visible;
 }
 
 @media (max-width: 750px) {
@@ -305,16 +312,13 @@ form {
 
 	.mailform {
 		display: none;
-		visibility: hidden;
 	}
         #rightmail {
     display: none;
-    visibility: hidden;
 }
 
         #leftmail {
     display: block;
-    visibility: visible;
 }
 
 }
