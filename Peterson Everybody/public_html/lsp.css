@@ -708,6 +708,14 @@ form {
         footer {
 	        font-size: 12px;
         }
+        
+        .purchasebutton a {
+	        font-size: 16px;
+        }
+        
+        .purchasebutton {
+	        padding-top: 0px;
+        }
 }
 
 #tweets .social-media-icon {
