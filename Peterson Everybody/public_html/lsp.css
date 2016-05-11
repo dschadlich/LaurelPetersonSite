@@ -507,6 +507,10 @@ form {
             margin-right: 11px;
             margin-top: 11px;
         }
+        
+        footer {
+	        font-size: 5px;
+        }
 }
 
 /* rightcol responsiveness */
