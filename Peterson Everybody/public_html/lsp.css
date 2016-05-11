@@ -489,7 +489,11 @@ form {
 @media (max-width: 750px) {
 
   .full-width-img {
+    
     width: 15%;
+    margin-right: 1200px;
+    float: left;
+    display: block;
   }
 	.panel.book-side {
 		padding-left: 0px;
@@ -682,7 +686,14 @@ text-align: left;
 margin-top: 40px;
 }
 
+
 @media (max-width: 639px) {
+.full-width-img {
+    width: 15%;
+    margin-right: 850px;
+    float: left;
+    display: block;
+  }
     	#menu {
         	width: 100%;
    	}
